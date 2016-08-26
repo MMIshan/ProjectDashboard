@@ -1,0 +1,87 @@
+﻿<div data-ng-controller="customerSatisfaction" class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-left">
+                <img src="../Content/Images/logo3.png" style="padding-top:10px;padding-right:20px;height:50px;">
+
+
+                <div class="dropdown" style="padding-left:560px;">
+
+
+                    <div class="dropdown-content">
+                        <a href="#/teamForm">Team Satisfaction Survey</a>
+                        <a href="#">Link 2</a>
+                        <a href="#">Link 3</a>
+                    </div>
+                </div>
+
+                <a href="#/">
+                    <label style="padding-left:660px;padding-top:-5px;height:25px;align-content:flex-end;">Home</label>
+                </a>
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <section>
+        <div class="row teamChart well">
+            <div class="col-md-6">
+                <span id="labelName" style="font-size:25px;"><b>Customer Satisfaction</b></span>
+                <br><br>
+                <span id="labelName"><b>Customer Satisfaction Trends{{subProjectName}}</b></span>
+                <br>
+            </div>
+            <canvas id="bar123" chart-options="options" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-click="onClick" height="250" width="1200" style="padding-top:15px;" chart-legend="true" chart-responsive="false" data-ng-model="cusChart"></canvas>
+        </div>
+
+    </section>
+    <br>
+    <section>
+        <div class="row teamChart well">
+            <div class="row" style="margin-top:10px;height:50px;">
+                <div class="col-md-6">
+                    <span id="labelName"><b>Customer Survey Result Calculator</b></span>
+                </div>
+                <div class="col-md-6">
+                    <select data-ng-model="yearCombo">
+                        <option data-ng-repeat="x in yearArray" value={{x}}>{{x}}</option>
+                    </select>
+                    <input type="button" value="Quarter 1" data-ng-model="q1" data-ng-class="quarter1" data-ng-click="q1Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <input type="button" value="Quarter 2" data-ng-model="q2" data-ng-class="quarter2" data-ng-click="q2Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <select data-ng-model="projectCombo" style="margin-left:45px;" data-ng-change="subProjectChange()">
+                        <option value="All">All Projects</option>
+                        <option data-ng-repeat="x in projects" value={{x}}>{{x.Name}}</option>
+                    </select>
+                </div>
+
+            </div>
+            <div>
+                <table id="teamTable" data-ng-show="cusResults">
+
+                    <tr data-ng-repeat="result in CusResults" style="padding-left:28px;">
+                        <td data-ng-if="result.QuestionOrder==2" style="padding-left:18px;"><b>Questions</b></td>
+                        <td data-ng-if="result.QuestionOrder==2" style="padding-left:15px;"><b>{{result.DashboardQuestion}}  {{result.Answer}}</b></td>
+                        <td data-ng-if="result.QuestionOrder==0" style="padding-left:28px;">
+                            {{result.DashboardQuestion}}
+                        </td>
+                        <td data-ng-if="result.QuestionOrder==0" style="padding-left:15px;">{{result.Answer}}</td>
+                        <td data-ng-if="result.QuestionOrder!=0 && result.QuestionOrder!=2" style="padding-left:18px;">
+                            <b> ({{result.QuestionOrder}}) {{result.DashboardQuestion}} </b>
+                        </td>
+                        <td data-ng-if="result.QuestionOrder!=0 && result.QuestionOrder!=2" style="padding-left:15px;">{{result.Answer}}</td>
+
+                    </tr>
+                    <tr style="padding-left:28px;">
+                        <td style="padding-left:18px;"><b>Average</b></td>
+                        <td style="padding-left:15px;"><b>{{projectSummary.Rating}}</b></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+
+
+
+    </section>
+
+</div>

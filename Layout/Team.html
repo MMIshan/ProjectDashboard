@@ -1,0 +1,74 @@
+﻿<div data-ng-controller="myController" class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-left">
+                <img src="../Content/Images/logo3.png" style="padding-top:10px;padding-right:80px;height:50px;">
+                <input type="text" data-ng-model="te" class="projectList" readonly id="labelName" style="font-weight:700;align-content:center;" />
+
+                <a href="#/">
+                    <label style="padding-left:660px;padding-top:-5px;height:25px;align-content:flex-end;">Home</label>
+                </a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div class="row teamChart well">
+        <div class="col-md-6">
+            <span id="labelName" style="font-size:25px;"><b>Team Satisfaction</b></span>
+            <br><br>
+            <span id="labelName"><b>Team Satisfaction Trends</b></span>
+            <br>
+        </div>
+        <canvas id="bar" chart-options="options" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-click="onClick" height="250" width="1200" responsive="false" style="padding-top:15px;"></canvas>
+    </div>
+    <br>
+    <div class="row teamChart well">
+        <div class="row" style="height:50px;">
+            <div style="margin-top:10px;margin-left:15px;">
+                <div class="col-md-4">
+                    <span id="labelName"><b>Team Survey Result Calculator</b></span>
+                </div>
+                <div class="col-md-7">
+                    <select data-ng-model="yearCombo">
+                        <option data-ng-repeat="x in yearArray" value={{x}}>{{x}}</option>
+                    </select>
+                    <input type="button" value="Quarter 1" data-ng-model="q1" data-ng-class="quarter1" data-ng-click="q1Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <input type="button" value="Quarter 2" data-ng-model="q2" data-ng-class="quarter2" data-ng-click="q2Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <input type="button" value="Quarter 3" data-ng-model="q3" data-ng-class="quarter3" data-ng-click="q3Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <input type="button" value="Quarter 4" data-ng-model="q4" data-ng-class="quarter4" data-ng-click="q4Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                </div>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <table id="teamTable" data-ng-show="sh1">
+                    <tr>
+                        <th style="width:400px;background-color:#A9A9A9;font-weight:900;padding-left:15px;">Questions</th>
+                        <td data-ng-repeat="x1 in selectedPro[0]" style="background-color:#A9A9A9;font-weight:900;">{{x1[1]}}</td>
+                    </tr>
+
+                    <tr style="background-color:white;" data-ng-repeat="x in selectedPro">
+                        <th style="padding-left:15px;padding-right:15px;">{{x[0][2]}}</th>
+                        <td style="" data-ng-repeat="y in x">{{y[3]}}</td>
+                    </tr>
+
+                    <tr>
+                        <td style="font-weight:900;padding-left:15px;">Overall Average</td>
+                        <td style="font-weight:900;" data-ng-repeat="x2 in empAverages">{{x2.Rating}}</td>
+                        <td style="font-weight:900;color:red;">{{overall}}</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:900;padding-left:15px;">View Full Report</td>
+                        <td style="" data-ng-repeat="employee in send">
+                            <label data-ng-if="activeRights==true" data-ng-click="open(employee)" style="color:blue;cursor:pointer;" value="asd">VIEW{{x1}}</label>
+                            <label data-ng-if="activeRights!=true && employee==loggedInUserId" data-ng-click="open(employee)" style="color:blue;cursor:pointer;" value="asd">VIEW{{x1}}</label>
+                        </td>
+                        <td style=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+</div>

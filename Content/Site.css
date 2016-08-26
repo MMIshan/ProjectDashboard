@@ -1,0 +1,689 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:#e5e9ec;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select
+{
+   width: 150px;
+   height:30px;
+
+}
+
+.projectList {
+    width: 200px;
+    height:35px;
+    border-radius:4px;
+}
+
+
+.specWidget {
+        width:470px;
+        height:150px;
+        border:1px solid #e3e3e3;
+        border-radius:4px;
+        -webkit-box-shadow:0 0 2px black;
+       
+        
+        margin-left:15px;
+        cursor: pointer;
+        background-color:aliceblue;
+}
+
+
+
+.specWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+        -webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
+        transition: width 3s;
+
+    }
+
+    
+
+
+.specWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size:13px;
+        margin-bottom:2px;
+        cursor: pointer;
+
+    }
+
+
+
+.projectTitle {
+        font-weight:700;
+        font-size:xx-large;
+        color:#222222;
+
+}
+
+.speclev0 {
+    height:100px;
+    background-color:black;
+    color:white;
+}
+
+.speclev1 {
+    height:100px;
+    background-color:#f35958;
+    color:white;
+}
+
+.speclev2 {
+    height:100px;
+    background-color:#FFD700;
+    color:white;
+}
+
+.speclev3 {
+    height:100px;
+    background-color:#07776d;
+    color:white;
+}
+
+.info {
+    height:100px;
+    background-color:#696969;
+    color:white;
+}
+
+.specVal {
+    background-color:#008000;
+    
+}
+
+.specName {
+    height:40px;
+    color:black;
+    
+}
+
+#sval {
+    padding-left:15px;
+    font-size:24px;
+    margin-top:-10px;
+    
+}
+
+#sname {
+    padding-left:15px;
+    font-size:large;
+    margin-top:-5px;
+}
+
+#labelName {
+    padding-left:15px;
+    font-size:16px;
+    margin-top:-5px;
+}
+
+
+.tSWidget {
+        width:370px;
+        height:150px;
+        
+        border:1px solid #e3e3e3;
+        border-radius:4px;
+        -webkit-box-shadow:0 0 2px black;
+        
+
+        
+        background-color:aliceblue;
+        cursor: pointer;
+
+}
+
+
+
+.tSWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+.tSWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size:13px;
+        margin-bottom:2px;
+        cursor: pointer;
+    }
+
+.qualityVal {
+    height:100px;
+    background-color:#A52A2A;
+    color:white;
+    
+    
+}
+
+#qName {
+    padding-left:15px;
+    font-size:large;
+    margin-top:-5px;
+    
+}
+
+#qval {
+    padding-left:15px;
+    font-size:20px;
+    margin-top:-10px;
+}
+
+.cSWidget {
+        width:260px;
+        height:150px;
+        
+        border:1px solid #e3e3e3;
+        border-radius:4px;
+        -webkit-box-shadow:0 0 2px black;
+        background-color:aliceblue;
+        cursor: pointer;
+
+}
+
+
+
+.cSWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+
+.tSName {
+    height:44px;
+    background-color:black;
+    color:white;
+}
+
+.cSName {
+    height:44px;
+    background-color:cornflowerblue;
+    color:white;
+}
+
+.teamVal {
+    height:100px;
+    background-color:#D2691E;
+    color:white;
+    
+    
+}
+
+#tname {
+    padding-left:15px;
+    font-size:large;
+    margin-top:-5px;
+}
+
+#tval {
+    padding-left:15px;
+    font-size:24px;
+    margin-top:-10px;
+}
+
+.rMWidget {
+        width:340px;
+        height:320px;
+        
+        border:1px solid #e3e3e3;
+        border-radius:4px;
+        -webkit-box-shadow:0 0 2px black;
+        margin-left:15px;
+        background-color:aliceblue;
+        cursor: pointer;
+        
+
+}
+
+
+
+.rMWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+.rMWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        margin-left: 70%;
+        font-size:24px;
+        margin-bottom:2px;
+        cursor: pointer;
+    }
+
+.riskName {
+    height:44px;
+    color:black;
+    
+}
+
+#rval {
+    padding-left:15px;
+    font-size:24px;
+    margin-top:-10px;
+}
+
+#rname {
+    padding-left:15px;
+    font-size:large;
+    margin-top:-5px;
+}
+
+.riskVal {
+    height:270px;
+    color:white;
+}
+
+
+.short-div {
+  height:25px;
+}
+
+.CWidget {
+        width:815px;
+        height:150px;
+        border:1px solid #e3e3e3;
+        border-radius:4px;
+        -webkit-box-shadow:0 0 2px black;
+        cursor: pointer;
+        background-color:aliceblue;
+        
+
+}
+
+
+
+.CWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+.CWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size:13px;
+        margin-bottom:2px;
+        cursor: pointer;
+    }
+
+
+.cusName {
+    height:44px;
+    color:black;
+    
+}
+
+#cval {
+    padding-left:15px;
+    font-size:24px;
+    margin-top:-10px;
+}
+
+#cname {
+    padding-left:15px;
+    font-size:large;
+    margin-top:-5px;
+}
+
+.cusVal {
+    height:100px;
+    background-color:#00FF7F;
+    color:white;
+    
+    
+}
+
+
+
+
+
+
+
+.pCWidget {
+        width:400px;
+        height:150px;
+        border:1px solid #e3e3e3;
+        border-radius:4px;
+        -webkit-box-shadow:0 0 2px black;
+        cursor: pointer;
+        background-color:aliceblue;
+        
+
+}
+
+
+
+.pCWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+.pCWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size:13px;
+        margin-bottom:2px;
+        cursor: pointer;
+    }
+
+
+.processName {
+    height:44px;
+    color:black;
+    
+}
+
+#pval {
+    padding-left:15px;
+    font-size:24px;
+    margin-top:-10px;
+}
+
+#pname {
+    padding-left:15px;
+    font-size:large;
+    margin-top:-5px;
+}
+
+.processVal {
+    height:100px;
+    background-color:#A52A2A;
+    color:white;
+    
+    
+}
+
+
+
+
+
+
+
+.fSWidget {
+        width:385px;
+        height:150px;
+        border:1px solid #e3e3e3;
+        border-radius:4px;
+        -webkit-box-shadow:0 0 2px black;
+        cursor: pointer;
+        background-color:aliceblue;
+        
+
+}
+
+
+
+.fSWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+.fSWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size:large;
+        margin-bottom:2px;
+        cursor: pointer;
+    }
+
+
+.finantialName {
+    height:44px;
+    color:black;
+    
+}
+
+#fval {
+    padding-left:15px;
+    font-size:24px;
+    margin-top:-10px;
+}
+
+#fname {
+    padding-left:15px;
+    font-size:large;
+    margin-top:-5px;
+}
+
+.finantialVal {
+    height:100px;
+    background-color:#00FF7F;
+    color:white;
+    
+    
+}
+
+.teamChart {
+        -moz-box-shadow: 0 0 2px black;
+        -webkit-box-shadow: 0 0 2px black;
+        box-shadow: 0 0 2px black;
+        background-color:white;
+       padding-bottom:5px;
+       width:1220px;
+       height:36%;
+       font-family:'Leelawadee UI';
+}
+
+#teamTable th {
+        height:50px;
+        width:100px;
+}
+
+#teamTable tr {
+        height:40px;
+        outline-color:black;
+
+}
+
+#teamTable td, th {
+  vertical-align: top;
+  border-top: 1px solid #ccc;
+  padding:10px;
+  width:100px;
+}
+
+#teamTable tr:nth-child(odd) td{
+    background-color:#D3D3D3;
+}
+
+#teamTable tr:nth-child(odd) th{
+    background-color:#D3D3D3;
+}
+
+#teamTable {
+        width:100%;
+        table-layout:fixed; 
+        padding-left:150px;
+}
+
+
+
+.qnone {
+        background-color:none;
+        
+}
+
+.q1 {
+        background-color:#6495ED;
+        
+}
+
+.teamlev0 {
+    height:100px;
+    background-color:rgb(236,57,57);
+        
+        color:white;
+}
+
+.teamlev1 {
+    height:100px;
+        background-color:#FFA500;
+        color:white;
+}
+
+.teamlev2 {
+    height:100px;
+       background-color:#228B22; 
+        color:white;
+}
+
+.outer {position:relative}
+.inner {
+  overflow-x:scroll;
+  overflow-y:scroll;
+  width:1190px;
+}
+select option:empty { display:none }
+
+.popupContent {
+
+height:500px;
+overflow-y:scroll;
+
+}
+
+.reviewTable {
+    width:100%;
+    table-layout:fixed;
+   
+    font-family:'Leelawadee UI';
+}
+
+    .reviewTable td {
+    width:20px;
+    }
+
+    .dropdown {
+    position: absolute;
+    padding-top:13px;
+    display: inline;
+}
+
+
+    .dropbtn {
+    
+    border: none;
+    cursor: pointer;
+    background-color:#222222;
+    color:white;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px ;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    
+}
+
+.pcQualityParameterDisplayer-C {
+    background-color:#008000;
+    color:white;
+    width:90px;
+    font-family:'Leelawadee UI';
+}
+
+.pcQualityParameterDisplayer-I {
+    background-color:#D2691E;
+    color:white;
+    width:90px;
+    font-family:'Leelawadee UI';
+}
+
+.pcQualityParameterDisplayer-P {
+    background-color:red;
+    color:white;
+    width:90px;
+    font-family:'Leelawadee UI';
+}
+
+.my-chart {
+    height:36%;
+    width:1200px;
+    position: relative;
+}
+
+.columns {
+  columns: 3;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    padding:20px;
+border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+
+/*#sval:hover {
+    font-size:40px;
+    }
+
+#tval:hover {
+    font-size:40px;
+    }*/
