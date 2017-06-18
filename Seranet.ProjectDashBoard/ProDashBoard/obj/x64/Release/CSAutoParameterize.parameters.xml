@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-ProDashBoard-20160711095354.mdf;Initial Catalog=aspnet-ProDashBoard-20160711095354;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="DashBoard-Web.config Connection String" description="DashBoard Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=Inventry; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|Inventry.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DashBoard']/@connectionString" />
+  </parameter>
+  <parameter name="DashBoard1-Web.config Connection String" description="DashBoard1 Connection String used in web.config by the application to access the database." defaultValue="Data Source=.\MSSQL_2014;Initial Catalog=Inventry;Persist Security Info=True;user id=ishan1234;password=Ishanishan11;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DashBoard1']/@connectionString" />
+  </parameter>
+  <parameter name="Spec-Web.config Connection String" description="Spec Connection String used in web.config by the application to access the database." defaultValue="Data Source=99xt.lk;Initial Catalog=SPECM2;Persist Security Info=True;user id=SpecIntegration;password=spec@123;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Spec']/@connectionString" />
+  </parameter>
+  <parameter name="Financial-Web.config Connection String" description="Financial Connection String used in web.config by the application to access the database." defaultValue="data source=172.20.1.182;initial catalog=TRA;persist security info=True;user id=sa;password=tra-mis@123;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Financial']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,18 @@
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.DataLayer\bin\Debug\ProDashBoard.DataLayer.dacpac
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.DataLayer\bin\Debug\ProDashBoard.DataLayer.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.DataLayer\bin\Debug\ProDashBoard.DataLayer.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\Model.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\refactor.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\postdeploy.sql
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\predeploy.sql
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\ProDashBoard.DataLayer.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\ProDashBoard.DataLayer.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.DataLayer\bin\Debug\ProDashBoard.DataLayer.dacpac
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.DataLayer\bin\Debug\ProDashBoard.DataLayer.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.DataLayer\bin\Debug\ProDashBoard.DataLayer.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\Model.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\refactor.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\postdeploy.sql
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\predeploy.sql
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\ProDashBoard.DataLayer.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.DataLayer\obj\Debug\ProDashBoard.DataLayer.pdb

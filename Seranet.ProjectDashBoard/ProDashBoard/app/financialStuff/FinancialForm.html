@@ -1,0 +1,140 @@
+﻿<div data-ng-controller="financialDataController" class="modal-content">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="col-md-4" style="padding-left:0">
+                <a href="#/"><img src="/projectDashboard/Content/Images/logo2.png" style="padding-top:15px;padding-right:20px;height:45px;"></a>
+                &nbsp;
+                <div class="dropdown">
+
+                    <button class="dropbtn" style="color:#6E6E6E;font-weight:normal;"><b>Forms</b></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="padding-top:10px;display:block;margin:0 auto;">
+                <!--<select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" value={{project[1]}}>{{project[0]}}</option>
+                </select>-->
+
+            </div>
+
+            <div class="col-md-4" style="padding-top:18px;display:block;">
+                <label style="float:right;color:#7F7F7F;font-weight:normal;font-family: 'Leelawadee UI';font-size:14px;">{{LoggedInUserName}}</label>
+
+            </div>
+
+        </div>
+    </div>
+    <toaster-container toaster-options="{'time-out': 3000,'position-class': 'toast-top-right'}"></toaster-container>
+    <br><br>
+    <div class="teamChart well" style="background-color:white;padding:15px;">
+        <div class="row modal-header">
+            <h3 class="modal-title">Billable Time Entry {{displayingAccount}}</h3>
+        </div>
+        <br>
+        <div class="row modal-body">
+            
+                <form name="billableTimeEntry" novalidate>
+                    <div class="row">
+
+                        <div class="col-md-3">
+
+                            <div class="row" style="padding-bottom:5px;">
+                                <div class="col-md-3"><b>Year</b></div>
+                                <div class="col-md-2" style="color:red;">
+                                    <select data-ng-model="yearCombo1" class="form-control field" required>
+                                        <option data-ng-repeat="y in yearArray" value={{y}} data-ng-selected="y==selectedYear">{{y}}</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="row" style="padding-bottom:5px;">
+                                <div class="col-md-3"><b>Account</b></div>
+                                <div class="col-md-2" style="color:red;">
+                                    <select class="form-control" data-ng-model="accountCombo" style="height:30px;width:150px;" data-ng-change="accountChange()" required>
+                                        <option data-ng-repeat="account in Accounts" value={{account}}>{{account.AccountName}}</option>
+                                    </select>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+
+
+                            <div class="row" style="padding-bottom:5px;">
+                                <div class="col-md-3"><b>Month</b></div>
+                                <div class="col-md-2" style="color:red;">
+                                    <select class="form-control" data-ng-model="monthCombo" style="height:30px;width:150px;" required>
+                                        <option value="1">January</option>
+                                        <option value="2">February</option>
+                                        <option value="3">March</option>
+                                        <option value="4">April</option>
+                                        <option value="5">May</option>
+                                        <option value="6">June</option>
+                                        <option value="7">July</option>
+                                        <option value="8">August</option>
+                                        <option value="9">September</option>
+                                        <option value="10">October</option>
+                                        <option value="11">November</option>
+                                        <option value="12">December</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="row" style="padding-bottom:5px;">
+                                <div class="col-md-3"></div>
+                                <div class="col-md-2" style="color:red;">
+                                    <button class="btn btn-secondary adminProjectField q1" style="width:150px;" data-ng-click="SearchData()">Search</button>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="timeReportCover">
+                                <table id="timeReportTable" style="width:100%;">
+                                    <tr>
+                                        <th>Employee</th>
+                                        <th>Billing Consideration</th>
+                                        <th>Allocated Hours</th>
+                                        <th>Billable Hours</th>
+                                        <th>Total Hours</th>
+                                    </tr>
+                                    <tr data-ng-repeat="returnedData in timeReportData">
+                                        <td>{{returnedData.EmpName}}</td>
+                                        <td>
+                                            <select class="form-control field" data-ng-init="billableCheck[returnedData.EmpId]=returnedData.BillingType" data-ng-model="billableCheck[returnedData.EmpId]">
+                                                <option data-ng-repeat="ba in billableArray" data-ng-selected="ba[0]==returnedData.BillingType" value={{ba[0]}}>{{ba[1]}}</option>
+                                            </select>
+                                        </td>
+                                        <!--<td><input type="checkbox" class="checkbox" data-ng-init="billableCheck[returnedData.EmpId]=false" data-ng-model="billableCheck[returnedData.EmpId]" style="height:8px;"></td>-->
+                                        <td><input type="number" data-ng-init="AllocatedHours[returnedData.EmpId]=returnedData.AllocatedHours" data-ng-model="AllocatedHours[returnedData.EmpId]" class="form-control field"></td>
+                                        <td><input type="number" data-ng-init="BillableHours[returnedData.EmpId]=returnedData.BillableHours" data-ng-model="BillableHours[returnedData.EmpId]" class="form-control field"></td>
+                                        <td><input type="number" data-ng-init="TotalHours[returnedData.EmpId]=returnedData.TotalHours" data-ng-model="TotalHours[returnedData.EmpId]" class="form-control field"></td>
+
+                                    </tr>
+
+                                </table>
+                            </div>
+                            <p data-ng-if="timeReportData.length!=0 && timeReportDataMissingMembers!=''" class="timePortMissingMemberInformation">
+                                Time port data missing for <label style="color:#2979FF"> {{timeReportDataMissingMembers}}</label> for the above selected month.
+                        </p>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-secondary adminProjectField q1" data-ng-disabled="billableTimeEntry.$invalid" data-ng-model="submitBut" id="subBut" data-ng-click="SaveData($event)">Update Or Save Time</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+    </div>
+    </div>

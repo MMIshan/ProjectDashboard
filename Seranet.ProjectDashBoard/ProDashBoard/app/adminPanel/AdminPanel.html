@@ -1,0 +1,71 @@
+﻿<div data-ng-controller="adminPanelController" class="modal-content">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="col-md-4" style="padding-left:0">
+                <a href="#/"><img src="/projectDashboard/Content/Images/logo2.png" style="padding-top:15px;padding-right:20px;height:45px;"></a>
+                &nbsp;
+                <div class="dropdown">
+
+                    <button class="dropbtn" style="color:#6E6E6E;font-weight:normal;"><b>Forms</b></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="padding-top:10px;display:block;margin:0 auto;">
+                <!--<select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" value={{project[1]}}>{{project[0]}}</option>
+                </select>-->
+
+            </div>
+
+            <div class="col-md-4" style="padding-top:18px;display:block;">
+                <label style="float:right;color:#7F7F7F;font-weight:normal;font-family: 'Leelawadee UI';font-size:14px;">{{LoggedInUserName}}</label>
+
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <div class="teamChart well" style="background-color:white;padding:15px;">
+        <div class="row modal-body modal-header" style="border-bottom:none;">
+            <h3 class="modal-title">Admin Panel</h3>
+        </div>
+        
+        <tabset>
+            <tab ui-sref=".account">
+                <tab-heading>
+                    <span>Account</span>
+                </tab-heading>
+            </tab>
+            <tab ui-sref=".project">
+                <tab-heading>
+                    <span>Project</span>
+                </tab-heading>
+            </tab>
+            <tab ui-sref=".employee">
+                <tab-heading>
+                    <a>Employees</a>
+                </tab-heading>
+            </tab>
+            <tab>
+                <tab-heading>
+                    <a>General Settings</a>
+                </tab-heading>
+            </tab>
+        </tabset>
+        <a ui-sref=".account"></a>
+        <main ui-view>
+
+            <!--Here is the content-->
+        </main>
+
+    </div>
+
+    </div>

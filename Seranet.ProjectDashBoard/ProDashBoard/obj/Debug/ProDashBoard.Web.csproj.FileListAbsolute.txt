@@ -1,0 +1,995 @@
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ApplicationInsights.config
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\csc.exe
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\System.Collections.Immutable.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\System.Reflection.Metadata.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\vbc.exe
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe.config
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll.config
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.pdb
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Dapper.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\EntityFramework.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Agent.Intercept.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Web.Infrastructure.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Owin.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Cors.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Razor.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\WebGrease.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Dapper.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.pdb
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.pdb
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.pdb
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Razor.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.pdb
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\EntityFramework.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.Web.csprojResolveAssemblyReference.cache
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ApplicationInsights.config
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\csc.exe
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\System.Collections.Immutable.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\System.Reflection.Metadata.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\vbc.exe
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe.config
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll.config
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Dapper.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\EntityFramework.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Agent.Intercept.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Web.Infrastructure.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Owin.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Cors.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Razor.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\WebGrease.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Dapper.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Razor.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\EntityFramework.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.Web.csprojResolveAssemblyReference.cache
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ApplicationInsights.config
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\csc.exe
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\System.Collections.Immutable.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\System.Reflection.Metadata.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\vbc.exe
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe.config
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll.config
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ProDashBoard.pdb
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Dapper.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\EntityFramework.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Web.Infrastructure.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Owin.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Cors.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Http.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Razor.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\WebGrease.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Dapper.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.pdb
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.pdb
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.pdb
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Http.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Razor.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.pdb
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\EntityFramework.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.xml
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.dll
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.pdb
+E:\UpdatedOne\MaterialCheck\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.Web.csprojResolveAssemblyReference.cache
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ApplicationInsights.config
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\csc.exe
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\System.Collections.Immutable.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\System.Reflection.Metadata.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\vbc.exe
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe.config
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll.config
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ProDashBoard.pdb
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Dapper.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\EntityFramework.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Education.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Policy.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.TranslationServices.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Online.SharePoint.Client.Tenant.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.DocumentManagement.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Publishing.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Runtime.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.Applications.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Taxonomy.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.UserProfiles.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.WorkflowServices.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Web.Infrastructure.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Cors.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Http.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Razor.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\WebGrease.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Dapper.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.pdb
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.pdb
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.pdb
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Http.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Razor.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.pdb
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\EntityFramework.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.Web.csprojResolveAssemblyReference.cache
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ApplicationInsights.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\csc.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\System.Collections.Immutable.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\System.Reflection.Metadata.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\vbc.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ProDashBoard.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Dapper.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\EntityFramework.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Education.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Policy.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.TranslationServices.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Online.SharePoint.Client.Tenant.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.DocumentManagement.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Publishing.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Runtime.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.Applications.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Taxonomy.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.UserProfiles.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.WorkflowServices.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Web.Infrastructure.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Cors.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Http.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Razor.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\WebGrease.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Dapper.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Http.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Razor.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\EntityFramework.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.Web.csprojResolveAssemblyReference.cache
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ApplicationInsights.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\csc.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\System.Collections.Immutable.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\System.Reflection.Metadata.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\vbc.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Dapper.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\EntityFramework.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Education.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Policy.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.TranslationServices.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Online.SharePoint.Client.Tenant.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.DocumentManagement.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Publishing.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Runtime.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.Applications.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Taxonomy.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.UserProfiles.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.WorkflowServices.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Web.Infrastructure.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Cors.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Razor.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\WebGrease.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Dapper.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Razor.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\EntityFramework.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.Web.csprojResolveAssemblyReference.cache
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.pdb
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ApplicationInsights.config
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\csc.exe
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\System.Collections.Immutable.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\System.Reflection.Metadata.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\vbc.exe
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe.config
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll.config
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.pdb
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Dapper.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\EntityFramework.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Education.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Policy.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.TranslationServices.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Online.SharePoint.Client.Tenant.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.DocumentManagement.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Publishing.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Runtime.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.Applications.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Taxonomy.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.UserProfiles.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.WorkflowServices.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Web.Infrastructure.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Owin.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Cors.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Razor.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\WebGrease.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Exchange.WebServices.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Dapper.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.pdb
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.pdb
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.pdb
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Razor.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.pdb
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\EntityFramework.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Exchange.WebServices.pdb
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\bin\Microsoft.Exchange.WebServices.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ApplicationInsights.config
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\csc.exe
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\System.Collections.Immutable.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\System.Reflection.Metadata.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\vbc.exe
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe.config
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll.config
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ProDashBoard.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ProDashBoard.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Dapper.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\EntityFramework.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Education.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Policy.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Office.Client.TranslationServices.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Online.SharePoint.Client.Tenant.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.DocumentManagement.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Publishing.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Runtime.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.Applications.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Taxonomy.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.UserProfiles.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.WorkflowServices.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Web.Infrastructure.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Owin.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Cors.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Http.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Razor.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\WebGrease.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Exchange.WebServices.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Dapper.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.Web.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ProDashBoard.Api.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ProDashBoard.Model.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\ProDashBoard.Repository.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Http.Cors.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Newtonsoft.Json.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Helpers.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Http.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Mvc.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Optimization.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Razor.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Antlr3.Runtime.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\EntityFramework.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\System.Web.Http.Owin.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Exchange.WebServices.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\bin\Microsoft.Exchange.WebServices.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.Web.csprojResolveAssemblyReference.cache
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard\obj\Debug\ProDashBoard.pdb
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ApplicationInsights.config
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\csc.exe
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\System.Collections.Immutable.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\System.Reflection.Metadata.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\vbc.exe
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\roslyn\VBCSCompiler.exe.config
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ProDashBoard.dll.config
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ProDashBoard.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ProDashBoard.pdb
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Antlr3.Runtime.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Dapper.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\EntityFramework.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.Web.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Education.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Office.Client.Policy.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Office.Client.TranslationServices.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Online.SharePoint.Client.Tenant.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.DocumentManagement.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Publishing.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Runtime.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.Applications.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Search.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.Taxonomy.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.UserProfiles.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.SharePoint.Client.WorkflowServices.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Web.Infrastructure.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Newtonsoft.Json.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Owin.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ProDashBoard.Api.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ProDashBoard.Model.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ProDashBoard.Repository.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Cors.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Helpers.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Http.Cors.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Http.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Http.Owin.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Mvc.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Optimization.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Razor.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.WebPages.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\WebGrease.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Exchange.WebServices.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Dapper.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.DependencyCollector.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.Web.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AI.WindowsServer.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.ApplicationInsights.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ProDashBoard.Api.pdb
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ProDashBoard.Model.pdb
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\ProDashBoard.Repository.pdb
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Http.Cors.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Newtonsoft.Json.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Net.Http.Formatting.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Helpers.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Http.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Http.WebHost.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Mvc.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Optimization.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Razor.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.WebPages.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.WebPages.Deployment.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.WebPages.Razor.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Antlr3.Runtime.pdb
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\EntityFramework.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\EntityFramework.SqlServer.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Core.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Facebook.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Cookies.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.OAuth.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Google.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.Twitter.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\System.Web.Http.Owin.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Exchange.WebServices.pdb
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\bin\Microsoft.Exchange.WebServices.xml
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\obj\Debug\ProDashBoard.Web.csprojResolveAssemblyReference.cache
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\obj\Debug\ProDashBoard.dll
+E:\Repo_ProjectDashboard\ProjectDashboard\Seranet.ProjectDashBoard\ProDashBoard\obj\Debug\ProDashBoard.pdb

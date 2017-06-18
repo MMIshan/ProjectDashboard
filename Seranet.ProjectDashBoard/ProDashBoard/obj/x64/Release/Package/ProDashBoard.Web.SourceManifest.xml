@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<sitemanifest>
+  <IisApp path="E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\obj\x64\Release\Package\PackageTmp" />
+  <setAcl path="E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\obj\x64\Release\Package\PackageTmp" setAclResourceType="Directory" />
+  <setAcl path="E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard\obj\x64\Release\Package\PackageTmp" setAclUser="anonymousAuthenticationUser" setAclResourceType="Directory" />
+</sitemanifest>

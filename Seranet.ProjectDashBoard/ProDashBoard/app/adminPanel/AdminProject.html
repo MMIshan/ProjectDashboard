@@ -1,0 +1,235 @@
+﻿<div data-ng-controller="adminProjectController" class="modal-body" style="padding-top:0;">
+    <!--<a ui-sref=".account"></a>-->
+    <toaster-container toaster-options="{'time-out': 3000,'position-class': 'toast-top-right'}"></toaster-container>
+    <!--<div class="row">
+
+        <div><span><input type="checkbox" style="width:16px;height:16px;" data-ng-checked="active" data-ng-model="activeness" data-ng-click="activityChanged()" id="projectCheck">&nbsp; Show Inactive Projects</span><span style="padding-left:9%;font-weight:500;font-size:24px;"><b>{{account}}</b></span></div>
+
+    </div><br />-->
+    <div class="row">
+        <div class="col-md-4" style="display:block;width:230px;padding-left:10px;padding-right:0;">
+            <span style="display:block;margin-bottom:10px;margin-top:10px;"><input type="checkbox" style="width:16px;height:16px;" data-ng-checked="active" data-ng-model="activeness" data-ng-click="activityChanged()" id="projectCheck">&nbsp; Show Inactive Projects</span>
+            <input type="text" data-ng-model="searchKeyword" placeholder="Search Project" class="form-control" style="width:100%;margin:0;text-align:center;">
+            <br>
+            <div class="col-noPadding">
+                
+                <!--<button class="" data-ng-repeat="actProject in activeProjects | filter: {Name : searchKeyword} | orderBy: 'Name' " style="width:100%;margin:0;<!--height:30px;" data-ng-click="projectClick(actProject)" data-ng-class="clickedButton == actProject.Id ? 'q1' : '' ">{{actProject.Name}}</button>
+            <button data-ng-repeat="InactProject in inactiveProjects | filter: {Name : searchKeyword} | orderBy: 'Name'" style="width:100%;margin:0;background-color:#FFA500;" data-ng-click="projectClick(InactProject)" data-ng-class="clickedButton == InactProject.Id ? 'q1' : '' ">{{InactProject.Name}}</button>-->
+                <ul class="nav nav-pills nav-stacked">
+                    <li data-ng-repeat="actProject in activeProjects | filter: {Name : searchKeyword} | orderBy: 'Name'" style="width:100%;margin:0;" data-ng-class="clickedButton == actProject.Id ? 'active' : '' "><a data-ng-click="projectClick(actProject)" href="#">{{actProject.Name}}</a></li>
+                    <li data-ng-repeat="InactProject in inactiveProjects | filter: {Name : searchKeyword} | orderBy: 'Name'" style="width:100%;margin:0;" data-ng-class="clickedButton == InactProject.Id ? 'active' : '' "><a data-ng-click="projectClick(InactProject)" href="#" style="color:#FFA500;">{{InactProject.Name}}</a></li>
+
+                </ul>
+
+            </div>
+        </div>
+        
+        <div class="col-lg-9" style="border-left: 1px solid #ccc;padding-top:10px;margin-left:25px;">
+            <form name="AdminAccountForm" id="adminProjectForm" data-ng-submit="submitForm()" novalidate>
+                <div class="row">
+                    <div class="col-md-4" style="margin-bottom:10px;">
+                        <span style="font-size:20px;"><b>{{account}}</b></span>
+                    </div>
+                    
+
+                    
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+                        <span>Project Name<span class="mandatory">*</span></span>
+                    </div>
+                    <div class="col-md-5">
+                        <span><input type="text" class="form-control adminProjectField" data-ng-disabled="false" data-ng-model="projectName" required></span>
+                    </div>
+
+                    <div class="col-md-2">
+                        <span>Product Owner</span>
+                    </div>
+                    <div class="col-md-3">
+                        <span><input type="text" class="form-control adminProjectField" data-ng-disabled="false" data-ng-model="productOwner"></span>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <span>Description</span>
+                    </div>
+                    <div class="col-md-5">
+                        <span><textarea class="form-control adminProjectField"  data-ng-model="projectDescription" ></textarea></span>
+                    </div>
+
+                    <div class="col-md-2">
+                        <span>Risk Management Url</span>
+                    </div>
+                    <div class="col-md-3">
+                        <span><input type="text" class="form-control adminProjectField" data-ng-disabled="false" data-ng-model="riskUrl"></span>
+                    </div>
+
+                    <!--<div class="col-md-2">
+                        <!--<span>Project Code<span class="mandatory">*</span></span>
+                    </div>
+                    <div class="col-md-3">
+                        <!--<span><input type="text" class="form-control adminProjectField"  data-ng-model="projectCode" required></span>
+                    </div>-->
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <span>Component name in ISO Audits</span>
+                    </div>
+                    <div class="col-md-5">
+                        <span><input type="text" class="form-control adminProjectField"  data-ng-model="confluencePageId" ></span>
+                    </div>
+
+                    <div class="col-md-2">
+                        <span>Project Metrics Url</span>
+                    </div>
+                    <div class="col-md-3">
+                        <span><input type="text" class="form-control adminProjectField"  data-ng-model="wikiPageLink" ></span>
+                    </div>
+                </div>
+                <br>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <!--<span>Risk Management Url</span>-->
+                    </div>
+                    <div class="col-md-5">
+                        <!--<span><input type="text" class="form-control adminProjectField"  data-ng-disabled="false" data-ng-model="riskUrl"></span>-->
+                    </div>
+
+                    <div class="col-md-2">
+                        
+                    </div>
+                    <div class="col-md-3">
+                        <span><button class="btn btn-secondary adminProjectField mainBut" data-ng-click="addNewEmployee()">Add New Member</button></span>
+                    </div>
+                </div>
+
+
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+
+                    <div class="col-md-4">
+                        
+                        <md-switch data-ng-model="isProjectInactive" aria-label="Switch 1" class="md-warn">
+                            Deactivate Project
+                        </md-switch>
+                        <!--<span><input type="checkbox" style="width:16px;height:16px;" data-ng-click="setSelectedProjectAvailability()" id="isProjectInactive" data-ng-checked="isProjectInactive" data-ng-model="projectAvailability" data-ng-disabled="projectDisabled">&nbsp;Inactive Project</span>-->
+                    </div>
+
+
+                    <div class="col-md-3">
+                        <md-switch data-ng-model="isProjectBillable" aria-label="Switch 1" class="md-warn">
+                            Billable Project
+                        </md-switch>
+                        <!--<span><input type="checkbox" style="width:16px;height:16px;" data-ng-click="setselectedAccountAvailability()" id="isProjectBillable" data-ng-checked="isProjectBillable" data-ng-model="isBillable" data-ng-disabled="accountDisabled">&nbsp;Billable Project</span>-->
+                    </div>
+                    <div class="col-md-3">
+                        <br>
+                        <!--<span><button class="btn-primary" style="width:150px;" data-ng-click="addNewEmployee()">Add New Member</button></span>-->
+                    </div>
+
+                </div>
+                
+                <div class="row">
+                    
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-3">
+                        <h4><b>Team Members</b></h4>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2" style="margin-right:12px;padding-top:212px;">
+                        <div class="col-md-2">
+                            <button class="btn btn-secondary adminProjectField mainBut" data-ng-disabled="AdminAccountForm.$invalid" style="width:100px;" data-ng-click="saveProject()">Save</button>
+                        </div>
+                    </div>
+                    <div class="adminProjectCover">
+                        <table id="adminProjectTeamTable" style="width:100%;">
+                            <tr style="border-bottom:1px solid #ccc;">
+                            <th>Name</th>
+                            <th>Allocation Type</th>
+                            <th>Allocation(Hrs)</th>
+                            <th>Lead</th>
+                            <th>Deactivate</th>
+                            <th>Action</th>
+                           </tr>
+                            <tbody>
+                                <tr data-ng-repeat="empData in employeeData">
+                                    <td>
+                                        <select class="form-control field" data-ng-init="employeeCombo[empData.Id]=empData.EmpId" data-ng-model="employeeCombo[empData.Id]" data-ng-disabled="true" >
+                                            <option data-ng-repeat="em in employees" data-ng-selected="empData.EmpId==em.Id" value={{em.Id}}>{{em.MemberName}}</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="form-control field" data-ng-init="billableCheck[empData.Id]=empData.Billable" data-ng-model="billableCheck[empData.Id]" data-ng-disabled="fieldsEnability[empData.Id]">
+                                            <option data-ng-repeat="ba in billableArray" data-ng-selected="empData.Billable==ba[0]" value={{ba[0]}}>{{ba[1]}}</option>
+                                        </select>
+                                        <!--<input type="checkbox" style="width:16px;height:16px;" data-ng-init="billableCheck[empData.Id]=empData.Billable" data-ng-model="billableCheck[empData.Id]" id="selectedAccountCheck" data-ng-checked="empData.Billable" data-ng-disabled="fieldsEnability[empData.Id]">-->
+                                    </td>
+                                    <td>
+                                        <input type="number" style="width:100px;height:25px;" data-ng-init="allocationField[empData.Id]=empData.BillableHours" data-ng-model="allocationField[empData.Id]"  data-ng-disabled="fieldsEnability[empData.Id]" required>
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" style="width:16px;height:16px;" data-ng-init="leadCheck[empData.Id]=empData.Lead" data-ng-model="leadCheck[empData.Id]" data-ng-checked={{empData.Lead}} data-ng-disabled="fieldsEnability[empData.Id]">
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" style="width:16px;height:16px;" data-ng-init="availabilityCheck[empData.Id]=!empData.Availability" data-ng-model="availabilityCheck[empData.Id]" data-ng-checked={{!empData.Availability}} data-ng-disabled="fieldsEnability[empData.Id]">
+                                    </td>
+                                    <td><button class="btn btn-link" data-ng-click="edit(empData)">Edit</button></td>
+
+                                </tr>
+
+                                <tr data-ng-repeat="project in newProjects">
+                                    <td>
+                                        <select class="form-control field" data-ng-model="newemployeeCombo[project]"  required>
+                                            <option data-ng-repeat="em in employees" data-ng-selected="empData.EmpId==em.Id" value={{em.Id}}>{{em.MemberName}}</option>
+                                        </select>
+                                    </td>
+                                    <td>
+                                        <select class="form-control field" data-ng-model="newbillableCheck[project]" required>
+                                            <option data-ng-repeat="ba in billableArray" value={{ba[0]}}>{{ba[1]}}</option>
+                                        </select>
+                                        
+                                        <!--<input type="checkbox" style="width:16px;height:16px;"  id="selectedAccountCheck" data-ng-init="newbillableCheck[project]=false"  data-ng-model="newbillableCheck[project]">-->
+                                    </td>
+                                    <td>
+                                        <input type="number" style="width:100px;height:25px;" data-ng-model="newallocationField[project]" required>
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" style="width:16px;height:16px;" data-ng-init="newleadCheck[project]=false"  data-ng-model="newleadCheck[project]">
+                                    </td>
+                                    <td>
+                                        <input type="checkbox" style="width:16px;height:16px;" data-ng-init="newavailabilityCheck[project]=false" data-ng-model="newavailabilityCheck[project]"  data-ng-disabled="true">
+                                    </td>
+                                    <td></td>
+
+                                </tr>
+                            </tbody>
+                        </table>
+
+                    </div>
+                    <!--<div class="row" style="height:35px;" data-ng-repeat="project in projects">
+                        <div class="col-md-9">{{project.Name}}</div>
+                        <div class="col"><input type="checkbox" style="width:16px;height:16px;" data-ng-click="setselectedProjectAvailability()" id="selectedProjectCheck" data-ng-checked={{project.Enabled}}>&nbsp;Inactive</div>
+                    </div>-->
+                </div>
+                <div class="row">
+
+                    
+                </div>
+            </form>
+        </div>
+
+    </div>
+</div>
+
+
+
+

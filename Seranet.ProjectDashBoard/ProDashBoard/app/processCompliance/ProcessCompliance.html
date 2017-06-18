@@ -1,0 +1,115 @@
+﻿<div data-ng-controller="processComplianceController" class="modal-content">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="col-md-4" style="padding-left:0">
+                <a href="#/"><img src="/projectDashboard/Content/Images/logo2.png" style="padding-top:15px;padding-right:20px;height:45px;"></a>
+                &nbsp;
+                <div class="dropdown">
+
+                    <button class="dropbtn" style="color:#6E6E6E;font-weight:normal;"><b>Forms</b></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="padding-top:10px;display:block;margin:0 auto;">
+                <select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" data-ng-selected="accountId == {{project[1]}} ? 'selected' : '' " value={{project[1]}}>{{project[0]}}</option>
+                </select>
+
+            </div>
+
+            <div class="col-md-4" style="padding-top:18px;display:block;">
+                <label style="float:right;color:#7F7F7F;font-weight:normal;font-family: 'Leelawadee UI';font-size:14px;">{{LoggedInUserName}}</label>
+
+            </div>
+
+        </div>
+    </div>
+    <toaster-container toaster-options="{'time-out': 3000,'position-class': 'toast-top-right'}"></toaster-container>
+    <br><br><div style="margin-left:1.5%;">
+    <section>
+        <div class="row teamChart well">
+            <div class="col-md-6">
+                <span id="labelName" style="font-size:25px;"><b>Process Compliance</b></span>
+                <br><br>
+                <span id="labelName"><b>NCI Trends - {{subProjectName}}</b></span>
+            </div>
+
+            <canvas id="LineChart" chart-options="options" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-click="pcChartClick" style="padding-top:15px;height:220px;width:1200px;" data-ng-model="cusChart" chart-Colours="colors" chart-legend="true"></canvas>
+
+        </div>
+    </section>
+
+    <br>
+    <section>
+        <div class="row teamChart well">
+            <div class="row resultsHeaderContent">
+                <div style="margin-top:10px;margin-left:15px;">
+                <div class="col-md-6">
+                    <span id="labelName"><b>Quality Parameters as Per {{IsoQuality}} </b></span>
+                </div>
+                <div class="col-md-6" style="display:inline-block;">
+                    <select data-ng-model="yearCombo" class="form-control field" style="margin-left: -5px;"><option data-ng-repeat="x in yearArray" value={{x}}>{{x}}</option></select>
+                    <input type="button" value="1st Half" data-ng-model="q1" data-ng-class="quarter1" data-ng-click="q1Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <input type="button" value="2nd Half" data-ng-model="q2" data-ng-class="quarter2" data-ng-click="q2Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <select data-ng-model="projectCombo" class="form-control field" style="margin-left:60px;" data-ng-change="subProjectChange()">
+                        <option data-ng-repeat="x in projects" data-ng-selected="initialSelectedProjectId == {{x.Id}} ? 'selected' : '' " value={{x}}>{{x.Name}}</option>
+                    </select>
+                </div>
+                    </div>
+            </div>
+            <div>
+                <table id="teamTable" data-ng-show="pcShow" style="border:none;">
+                    <!--<tr class="tableHeader">
+                        <th style="width:inherit;"><span class="col-md-9">Parameter</span><span>Level</span>
+                            </th>
+                        <th style="width:inherit;">
+                            <span class="col-md-9">Parameter</span><spa>Level</spa>
+                        </th>
+                    </tr>-->
+                    <tr data-ng-repeat="result1 in ChangedResults">
+                        <td data-ng-repeat="result in result1" style="font-family:'Leelawadee UI';">
+                            <span class="col-md-9" style="padding-left:5px;">{{result.QualityParameter}}</span>
+                            <span data-ng-if="result.Rating=='Consistent'"><button class="btn btn-sm pcQualityParameterDisplayer-C" disabled>{{result.Rating}}</button></span>
+                            <span data-ng-if="result.Rating=='Inconsistent'"><button class="btn btn-sm pcQualityParameterDisplayer-I" disabled>{{result.Rating}}</button></span>
+                            <span data-ng-if="result.Rating=='Poor'"><button class="btn btn-sm pcQualityParameterDisplayer-P" disabled>{{result.Rating}}</button></span>
+                        </td>
+
+                    </tr>
+
+                    <tr>
+                        <td><span class="col-md-9" style="padding-left:5px;"><b>Average</b></span></td>
+                        <td><span class="col-md-9" style="padding-left:5px;"><b>{{selectedProjectDurationSummary.Rating}}</b></span></td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="row teamChart well">
+            <div class="row" style="margin-top:10px;height:50px;">
+                <div class="col-md-4">
+                    <span id="labelName" style="padding-left:10px;"><b>Other Links</b></span>
+                </div>
+                <div data-ng-if="CommonData.ConfluencePageId!=null" class="col-md-3">
+                    <!--<ul><li><a href={{ProcessComplianceConfigLink+"="+"'"+CommonData.ConfluencePageId+"'"}}><b>Open Audit Findings</b></a></li></ul>-->
+                    <ul><li><label style="color:#2979FF;cursor:pointer" data-ng-click="auditClick()"><b>Open Audit Findings</b></label></li></ul>
+                </div>
+                <div data-ng-if="CommonData.WikiPageLink!=null" class="col-md-3">
+                    <ul><li><label style="color:#2979FF;cursor:pointer" data-ng-click="metricsClick()"><b>Project Quality Metrics</b></label></li></ul>
+                    <!--<ul><li><a href={{CommonData.WikiPageLink}}><b>Project Quality Metrics</b></a></li></ul>-->
+                </div>
+            </div>
+
+        </div>
+    </section>
+</div>

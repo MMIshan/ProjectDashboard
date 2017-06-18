@@ -1,0 +1,236 @@
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\ApplicationInsights.config
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\csc.exe
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Collections.Immutable.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Reflection.Metadata.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\vbc.exe
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe.config
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.pdb
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Agent.Intercept.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\ApplicationInsights.config
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\csc.exe
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Collections.Immutable.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Reflection.Metadata.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\vbc.exe
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe.config
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Agent.Intercept.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.csprojResolveAssemblyReference.cache
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\ApplicationInsights.config
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\csc.exe
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Collections.Immutable.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Reflection.Metadata.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\vbc.exe
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe.config
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.pdb
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.xml
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck - Copy (4)\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\ApplicationInsights.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\csc.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Collections.Immutable.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Reflection.Metadata.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\vbc.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.csprojResolveAssemblyReference.cache
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\ApplicationInsights.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\csc.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Collections.Immutable.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Reflection.Metadata.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\vbc.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe.config
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.pdb
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Agent.Intercept.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.xml
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.csprojResolveAssemblyReference.cache
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.dll
+E:\UpdatedOne\MaterialCheck - Copy (5) - Copy\New folder\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.pdb
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\ApplicationInsights.config
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\csc.exe
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Collections.Immutable.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Reflection.Metadata.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\vbc.exe
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe.config
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.pdb
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.xml
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.csprojResolveAssemblyReference.cache
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.dll
+E:\ProjectDashboard\New folder_proDashboard\New folder\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\ApplicationInsights.config
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\csc.exe
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Collections.Immutable.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\System.Reflection.Metadata.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\vbc.exe
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\roslyn\VBCSCompiler.exe.config
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\ProDashBoard.Model.pdb
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.DependencyCollector.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.Web.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.AI.WindowsServer.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.ApplicationInsights.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\bin\Newtonsoft.Json.xml
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.csprojResolveAssemblyReference.cache
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.dll
+E:\Repo_ProjectDashboard\eyesonly-portal\ProDashBoard\ProDashBoard.Model\obj\Debug\ProDashBoard.Model.pdb

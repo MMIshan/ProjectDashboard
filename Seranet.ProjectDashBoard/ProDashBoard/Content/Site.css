@@ -1,0 +1,1136 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 45px;
+    /*background-color: #e5e9ec;*/
+    /*background-color:#e8e8e8;*/
+    background-color: #eaeaea;
+    font-family: Roboto;
+    /*height:100%;*/
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    /*padding-left: 15px;
+    padding-right: 15px;*/
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select, text {
+    width: 150px;
+    height: 30px;
+}
+
+.projectList {
+    width: 150px;
+    height: 35px;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+    align-content: center;
+    background-color: #FFFFFF;
+    border: none;
+    color: #7F7F7F;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    box-shadow: none;
+}
+
+    .projectList option {
+        color: black;
+        background-color: #FFFFFF;
+    }
+
+.specWidget {
+    /*width: 470px;*/
+    height: 150px;
+    /*border:1px solid #e3e3e3;
+        border-radius:4px;*/
+    -webkit-box-shadow: 0 0 2px black;
+    box-shadow: 1px 1px 1px #c1c1c1;
+    margin-left: 15px;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+
+
+    .specWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+        -webkit-transition: width 3s; /* For Safari 3.1 to 6.0 */
+        transition: width 3s;
+    }
+
+
+
+
+    .specWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 13px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+
+
+
+.projectTitle {
+    font-weight: 700;
+    font-size: xx-large;
+    color: #222222;
+}
+
+.speclev0 {
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.speclev1 {
+    height: 100px;
+    background-color: #f35958;
+    color: white;
+}
+
+.speclev2 {
+    height: 100px;
+    background-color: #FFD700;
+    color: white;
+}
+
+.speclev3 {
+    height: 100px;
+    background-color: #07776d;
+    color: white;
+}
+
+.info {
+    height: 100px;
+    background-color: #696969;
+    color: white;
+}
+
+.specVal {
+    background-color: #008000;
+}
+
+.specName {
+    height: 40px;
+    color: black;
+}
+
+#sval {
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+#sname {
+    padding-left: 15px;
+    font-size: large;
+    margin-top: -5px;
+}
+
+#labelName {
+    /*padding-left: 15px;*/
+    font-size: 16px;
+    margin-top: -5px;
+}
+
+.resultsHeaderContent {
+    height: 60px;
+}
+
+.tSWidget {
+    width: 26.5%;
+    height: 150px;
+    -webkit-box-shadow: 0 0 2px black;
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 1px #c1c1c1;
+}
+
+
+
+    .tSWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+    .tSWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 13px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+
+.qualityVal {
+    height: 100px;
+    background-color: #A52A2A;
+    color: white;
+}
+
+#qName {
+    padding-left: 15px;
+    font-size: large;
+    margin-top: -5px;
+}
+
+#qval {
+    padding-left: 15px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.cSWidget {
+    width: 21%;
+    height: 150px;
+    -webkit-box-shadow: 0 0 2px black;
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 1px #c1c1c1;
+}
+
+
+
+    .cSWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+
+.tSName {
+    height: 44px;
+    background-color: black;
+    color: white;
+}
+
+.cSName {
+    height: 44px;
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.teamVal {
+    height: 100px;
+    background-color: #D2691E;
+    color: white;
+}
+
+#tname {
+    padding-left: 15px;
+    font-size: large;
+    margin-top: -5px;
+}
+
+#tval {
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+.rMWidget {
+    width: 27.5%;
+    height: 320px;
+    margin-left: 15px;
+    -webkit-box-shadow: 0 0 2px black;
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 1px #c1c1c1;
+}
+
+
+
+    .rMWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-bottom: 15px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+    .rMWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        margin-left: 90%;
+        font-size: 24px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+
+.riskName {
+    height: 44px;
+    color: black;
+}
+
+#rval {
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: -10px;
+    color: white;
+}
+
+#rname {
+    padding-left: 15px;
+    font-size: large;
+    margin-top: -5px;
+}
+
+.riskVal {
+    height: 270px;
+    /*color:white;*/
+}
+
+
+.short-div {
+    height: 25px;
+}
+
+.CWidget {
+    width: 96%;
+    height: 150px;
+    -webkit-box-shadow: 0 0 2px black;
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 1px #c1c1c1;
+}
+
+
+
+    .CWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+    .CWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 13px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+
+
+.cusName {
+    height: 44px;
+    color: black;
+}
+
+#cval {
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+#cname {
+    padding-left: 15px;
+    font-size: large;
+    margin-top: -5px;
+}
+
+.cusVal {
+    height: 100px;
+    background-color: #00FF7F;
+    color: white;
+}
+
+
+
+
+
+
+
+.pCWidget {
+    width: 47%;
+    height: 150px;
+    -webkit-box-shadow: 0 0 2px black;
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 1px #c1c1c1;
+}
+
+
+
+    .pCWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 40px;
+        cursor: pointer;
+    }
+
+    .pCWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 13px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+
+
+.processName {
+    height: 44px;
+    color: black;
+}
+
+#pval {
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+#pname {
+    padding-left: 15px;
+    font-size: large;
+    margin-top: -5px;
+}
+
+.processVal {
+    height: 100px;
+    background-color: #A52A2A;
+    color: white;
+}
+
+.fSWidget {
+    width: 45.5%;
+    height: 150px;
+    -webkit-box-shadow: 0 0 2px black;
+    cursor: pointer;
+    background-color: aliceblue;
+    box-shadow: 1px 1px 1px #c1c1c1;
+}
+
+
+
+    .fSWidget label {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        /*padding-left: 40px;*/
+        cursor: pointer;
+    }
+
+    .fSWidget span {
+        width: 100%;
+        position: center;
+        padding-top: 20px;
+        padding-left: 15px;
+        font-size: 13px;
+        margin-bottom: 2px;
+        cursor: pointer;
+    }
+
+
+.finantialName {
+    height: 44px;
+    color: black;
+}
+
+#fval {
+    padding-left: 15px;
+    font-size: 24px;
+    margin-top: -10px;
+}
+
+#fname {
+    padding-left: 15px;
+    font-size: large;
+    margin-top: -5px;
+}
+
+.finantialVal {
+    height: 100px;
+    background-color: #00FF7F;
+    color: white;
+}
+
+.teamChart {
+    /*-moz-box-shadow: 0 0 2px black;
+    -webkit-box-shadow: 0 0 2px black;
+    box-shadow: 0 0 2px black;*/
+    -webkit-box-shadow: 0 0 2px black;
+    box-shadow: 1px 1px 1px #c1c1c1;
+    background-color: white;
+    padding-bottom: 5px;
+    /*width: 1220px;*/
+    width: 100%;
+    height: 100%;
+    font-family: Roboto;
+}
+
+#teamTable th {
+    height: 50px;
+    width: 100px;
+}
+
+#teamTable tr {
+    height: 40px;
+    /*outline-color: black;*/
+}
+
+#teamTable td, th {
+    vertical-align: middle;
+    /*border-top: 1px solid #ccc;*/
+    padding: 10px;
+    width: 100px;
+}
+
+#teamTable tr:nth-child(even) td {
+    background-color: #f5f5f5;
+}
+
+#financialTable tr:nth-child(even) td {
+    background-color: #f5f5f5;
+}
+
+#adminAccountProjects tr:nth-child(even) td {
+    background-color: #f5f5f5;
+}
+
+#adminProjectTeamTable tr:nth-child(even) td {
+    background-color: #f5f5f5;
+}
+
+.tableHeader {
+    border: 1px solid #ccc;
+}
+
+#teamTable {
+    width: 100%;
+    table-layout: fixed;
+    padding-left: 150px;
+    border: 1px solid #ccc;
+}
+
+.qnone {
+    background-color: white;
+    border-width: 1px;
+    border-color: #ACACAC;
+    padding: 1px;
+    /*font-weight:600;*/
+    color: #ACACAC;
+}
+
+.q1 {
+    background-color: white;
+    border-width: 1px;
+    border-color: #2979FF;
+    padding: 1px;
+    /*font-weight:600;*/
+    color: #2979FF;
+}
+
+.mainBut {
+    background-color: rgba(41, 121, 255, 0.79);
+    border-width: 1px;
+    border-color: #2979FF;
+    padding: 1px;
+    /*font-weight:600;*/
+    color: white;
+}
+
+.teamlev0 {
+    height: 100px;
+    background-color: rgb(236,57,57);
+    color: white;
+}
+
+.teamlev1 {
+    height: 100px;
+    background-color: #FFA501;
+    color: white;
+}
+
+.teamlev2 {
+    height: 67%;
+    background-color: #4edab3;
+    color: white;
+}
+
+.outer {
+    position: relative;
+}
+
+.inner {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    /*width: 1190px;*/
+}
+
+select option:empty {
+    display: none;
+}
+
+.popupContent {
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.reviewTable {
+    width: 100%;
+    table-layout: fixed;
+    font-family: Roboto;
+}
+
+    .reviewTable td {
+        width: 20px;
+    }
+
+.dropdown {
+    position: absolute;
+    padding-top: 14px;
+    display: inline;
+}
+
+
+.dropbtn {
+    border: none;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    color: white;
+    padding-top: 5px;
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+}
+
+    .dropdown-content a {
+        color: black;
+        padding: 12px;
+        text-decoration: none;
+        display: block;
+    }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+}
+
+.pcQualityParameterDisplayer-C {
+    background-color: #008000;
+    color: white;
+    width: 90px;
+    font-family: Roboto;
+}
+
+.pcQualityParameterDisplayer-I {
+    background-color: #D2691E;
+    color: white;
+    width: 90px;
+    font-family: Roboto;
+}
+
+.pcQualityParameterDisplayer-P {
+    background-color: red;
+    color: white;
+    width: 90px;
+    font-family: Roboto;
+}
+
+.my-chart {
+    height: 36%;
+    width: 1200px;
+    position: relative;
+}
+
+.columns {
+    columns: 3;
+}
+
+.numberCircle {
+    border-radius: 50%;
+    padding: 20px;
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+}
+
+.col-noPadding {
+    float: left;
+    width: 220px;
+}
+
+.adminProjectCover {
+    float: left;
+    width: 20%;
+    position: relative;
+    min-height: 1px;
+    height: 520px;
+}
+
+.col-adminAccountName {
+    float: left;
+    width: 20%;
+}
+
+.col-noPadding {
+    position: relative;
+    min-height: 1px;
+    overflow-y: scroll;
+    height: 495px;
+}
+
+/*#sval:hover {
+    font-size:40px;
+    }
+
+#tval:hover {
+    font-size:40px;
+    }*/
+
+
+
+#adminAccountProjects {
+}
+
+    #adminAccountProjects tr {
+        height: 35px;
+        /*outline-color: black;*/
+    }
+
+/*#adminAccountProjects tr:nth-child(odd) td {
+            background-color: #D3D3D3;
+        }
+
+        #adminAccountProjects tr:nth-child(odd) th {
+            background-color: #D3D3D3;
+        }*/
+
+.adminAccountProjectCover {
+    overflow-y: scroll;
+    height: 390px;
+    max-width: 79%;
+    border: 1px solid #ccc;
+    /*padding-bottom: 20px;*/
+}
+
+.adminProjectCover {
+    overflow-y: scroll;
+    height: 240px;
+    width: 79%;
+    border: 1px solid #ccc;
+}
+
+#adminProjectTeamTable {
+    display: block;
+}
+
+    #adminProjectTeamTable th {
+        width: 10%;
+    }
+
+    #adminProjectTeamTable td {
+        padding-left: 10px;
+        width: 10%;
+    }
+
+    #adminProjectTeamTable tr {
+        height: 40px;
+        /*outline-color: black;*/
+    }
+
+        #adminProjectTeamTable tr:nth-child(odd) td {
+            /*background-color: #D3D3D3;*/
+        }
+
+    #adminProjectTeamTable button {
+        color: #2998F2;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        text-align: left;
+        font-weight: 600;
+    }
+
+canvas {
+    width: 100% !important;
+    /*max-width: 1200px;*/
+    height: auto !important;
+    max-height: 250px;
+}
+
+.field {
+    height: 30px;
+    width: 150px;
+    display: inline-block;
+}
+
+
+.timeReportCover {
+    overflow: scroll;
+    height: 400px;
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+#timeReportTable {
+    /*display: block;*/
+}
+
+    #timeReportTable th {
+        border-bottom: 1px solid #ccc;
+        /*background-color: #A9A9A9;*/
+    }
+
+    #timeReportTable td {
+        padding-left: 10px;
+        width: 10%;
+    }
+
+    #timeReportTable tr {
+        height: 50px;
+        /*outline-color: black;*/
+        margin-top: 15px;
+    }
+
+        #timeReportTable tr:nth-child(even) td {
+            background-color: #f5f5f5;
+        }
+
+    #timeReportTable button {
+        color: blue;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        overflow: hidden;
+        outline: none;
+        text-align: left;
+    }
+
+.green {
+    color: #057f37;
+}
+
+.gray {
+    color: #6495ED;
+}
+
+.orange {
+    color: #FFA501;
+}
+
+#financialTable label {
+    margin-left: 10px;
+}
+
+#financialContent #billable {
+    width: 130px;
+    height: 30px;
+    background-color: #6495ED;
+    padding: 2px 6px 2px 6px;
+    /*color: white;*/
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#financialContent #nonBillable {
+    width: 130px;
+    height: 30px;
+    background-color: #057f37;
+    padding: 2px 6px 2px 6px;
+    color: white;
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+#financialContent #hourlyBillable {
+    width: 130px;
+    height: 30px;
+    background-color: #FFA500;
+    padding: 2px 6px 2px 6px;
+    color: white;
+    margin-right: 15px;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+main.ng-enter {
+    /* transition on enter for .5s */
+    transition: .5s;
+    /* start with opacity 0 (invisible) */
+    opacity: 0;
+}
+
+/* end 'enter' transition on main view */
+main.ng-enter-active {
+    /* end with opacity 1 (fade in) */
+    opacity: 1;
+}
+
+#myCarousel {
+    width: 100%;
+    height: 270px;
+}
+
+md-card {
+    margin: auto;
+    left: 0;
+    right: 0;
+    height: 260px;
+    margin-bottom: 20px;
+}
+
+.adminProjectField {
+    width: 180px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.spinner {
+    width: 40px;
+    height: 40px;
+    position: relative;
+}
+
+.double-bounce1, .double-bounce2 {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background-color: #9c9;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    -webkit-animation: bounce 2.0s infinite ease-in-out;
+    animation: bounce 2.0s infinite ease-in-out;
+}
+
+.double-bounce2 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+@-webkit-keyframes bounce {
+    0%, 100% {
+        -webkit-transform: scale(0.0);
+    }
+
+    50% {
+        -webkit-transform: scale(1.0);
+    }
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: scale(0.0);
+        -webkit-transform: scale(0.0);
+    }
+
+    50% {
+        transform: scale(1.0);
+        -webkit-transform: scale(1.0);
+    }
+}
+
+#canvas-holder {
+    height: 100%;
+    width: 200px;
+    position: relative;
+    padding-top: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+.chart-title {
+    position: absolute;
+    left: 0;
+    right: 10px;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    /*width: 18%;*/
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto;
+}
+
+.Spec {
+    min-height: 265px;
+    -webkit-box-shadow: 0 0 2px black;
+    box-shadow: 1px 1px 1px #c1c1c1;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+    height: 10%;
+    /*max-width:370px;*/
+}
+
+#widgetTitle {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Roboto-Bold;
+    padding-left: 8%;
+}
+
+#noInformation {
+    /*width: 100%;*/
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: Roboto;
+    color: gray;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.devider {
+    position: relative;
+    min-height: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 100%;
+}
+
+#circle {
+    width: 160px;
+    height: 160px;
+    -webkit-border-radius: 80px;
+    -moz-border-radius: 80px;
+    border-radius: 80px;
+    display: block;
+    margin: 0 auto;
+    /*margin-right: 15%;*/
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-top: 16px;
+}
+
+    #circle span {
+        color: white;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+.widgetDetailsCover {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.widgetCircleDetailsCover {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+    padding-top: 18px;
+}
+
+
+.widgetDetails {
+    font-size: 12px;
+    font-family: Roboto;
+    font-weight: 500;
+    color: gray;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.legendValue {
+    font-size: 10px;
+    line-height: 1;
+    text-align: start;
+    display: block;
+    /*font-weight:600;*/
+    font-family: Roboto-Light;
+    margin-bottom: 0px;
+}
+
+.legendDescription {
+    font-size: 10px;
+    line-height: 1.6;
+    display: block;
+    /*font-weight:600;*/
+    font-family: Roboto-Light;
+    margin-bottom: 0px;
+}
+
+.mandatory {
+    color: red;
+    padding-left: 5px;
+}
+
+.timePortMissingMemberInformation {
+    padding-top: 35px;
+    padding-left: 30px;
+    color: #a93c3c;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('../fonts/Roboto/Roboto-Bold.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Roboto-Light;
+    src: url('../fonts/Roboto/Roboto-Light.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}

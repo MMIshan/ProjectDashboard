@@ -1,0 +1,538 @@
+﻿<div data-ng-controller="ProjectController"> <!--class="modal-content"-->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="col-md-4" style="padding-left:0">
+                <a href="#/"><img src="/projectDashboard/Content/Images/logo2.png" style="padding-top:15px;padding-right:20px;height:45px;"></a>
+                &nbsp;
+                <div class="dropdown">
+
+                    <button class="dropbtn" style="color:#6E6E6E;font-weight:normal;"><b>Forms</b></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="padding-top:10px;display:block;margin:0 auto;">
+                <select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" data-ng-selected="proId == {{project[1]}} ? 'selected' : '' " value={{project[1]}}>{{project[0]}}</option>
+                </select>
+
+            </div>
+
+            <div class="col-md-4" style="padding-top:18px;display:block;">
+                <label style="float:right;color:#7F7F7F;font-weight:normal;font-family: 'Leelawadee UI';font-size:14px;">{{LoggedInUserName}}</label>
+
+            </div>
+
+        </div>
+    </div>
+    
+    <!--<div class="row col-md-12" style="height:45px;background-color:#e5e9ec;">
+        <table style="width:100%;position:fixed;z-index:100;background-color:#e5e9ec;">
+                <tbody> <!--data-ng-repeat="hoverData in hoverValues"-->
+                    <!--<tr style="margin-bottom:5px;">
+                        <td class={{hoverData[2]}} style="width:25px;height:25px;border-radius:5px;"></td>
+                        <td style="width:100%;height:25px;display:block;align-content:flex-start;font-size:0;margin-left:10px;">
+                            <span class="legendValue">{{hoverData[0]}}</span>
+                            <span class="legendDescription">{{hoverData[1]}}</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-ng-repeat="hoverData in hoverValues" style="width:270px;">
+                            <div style="display:inline-block;padding-top:10px;">
+                            <label class={{hoverData[2]}} style="width:25px;height:25px;border-radius:5px;"></label>
+                            <label style="height:25px;display:inline-block;align-content:flex-start;font-size:0;margin-left:10px;color:#787878;">
+                                <label class="legendValue legendLabel" style="margin-bottom:0px;">{{hoverData[0]}}</label>
+                                <label class="legendDescription legendLabel" style="margin-bottom:0px;">{{hoverData[1]}}</label>
+                            </label>
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <tr>
+                    <td></td>
+                </tr>
+            </table>
+        
+        </div>-->
+    
+    <br><br>
+    <div class="modal-content">
+            <div class="row " style="display:block;">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+
+                    <div class="Spec" data-ng-mouseover="specHoverOver()" data-ng-mouseleave="specHoverLeave()" >  <!--style="float:left;width:370px;"-->
+                        <!--data-ng-mouseleave="specHoverLeave()"-->
+                        <md-tooltip class="large" md-direction="left" md-autohide="true">
+                            <div style="margin:0 auto;">
+                                <div style="padding-left:10px;">
+                                    <div data-ng-if="hoverValues!=''" style="line-height:0.2pt;margin:5px;padding-top:5px;"><b>Legends</b></div>
+                                    <div class="row" style="padding-left:15px;line-height:0.2pt;">
+                                        <table style="width:100%;">
+                                            <tbody>
+                    <tr>
+                        <td data-ng-repeat="hoverData in hoverValues" style="width:270px;">
+                            <div style="display:inline-block;padding-top:10px;">
+                            <label class={{hoverData[2]}} style="width:25px;height:25px;border-radius:5px;"></label>
+                            <label style="height:25px;padding-right:15px;display:inline-block;align-content:flex-start;font-size:0;margin-left:10px;color:white;">
+                                <label class="legendValue legendLabel" style="margin-bottom:0px;">{{hoverData[0]}}</label>
+                                <label class="legendDescription legendLabel" style="margin-bottom:0px;">{{hoverData[1]}}</label>
+                            </label>
+                                </div>
+                        </td>
+                    </tr>
+                </tbody>
+
+                                            
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </md-tooltip>
+                        <br>
+                        <span id="widgetTitle">SPEC M2</span>
+                        <div data-ng-if="specShow==true" data-ng-click="redirectTo()">
+                            <div id="circle" data-ng-class="myclass">
+                                <div class="widgetCircleDetailsCover">
+                                    <span>Level</span>
+                                    <span style="font-size:75px;line-height:1.1">{{specLevel}}</span>
+                                </div>
+                            </div>
+
+                            <!--<div class="widgetDetailsCover">
+                                <span class="widgetDetails">5 pending</span>
+
+                            </div>-->
+                        </div>
+                        <div data-ng-if="specShow==false;" style="margin-top:8%;">
+                            <div style="display:block;margin:0 auto;">
+                                <img style="display:block;margin:0 auto;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                <span id="noInformation">NO INFORMATION FOUND</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="Spec" data-ng-mouseover="teamSatHoverOver()" data-ng-mouseleave="teamSatHoverLeave()" >  <!--style="float:left;width:370px;"-->
+                        <md-tooltip id="slider-tooltip" class="large" md-direction="left" md-autohide="true">
+                            <div style="margin:0 auto;">
+                                <div style="padding-left:10px;">
+                                    <div data-ng-if="hoverValues!=''" style="line-height:0.2pt;margin:5px;padding-top:5px;"><b>Legends</b></div>
+                                    <div class="row" style="padding-left:15px;line-height:0.2pt;">
+                                        <table style="width:100%;">
+                                            <tbody>
+                                                <tr>
+                                                    <td data-ng-repeat="hoverData in hoverValues" style="width:270px;">
+                                                        <div style="display:inline-block;padding-top:10px;">
+                                                            <label class={{hoverData[2]}} style="width:25px;height:25px;border-radius:5px;"></label>
+                                                            <label style="height:25px;padding-right:15px;display:inline-block;align-content:flex-start;font-size:0;margin-left:10px;color:white;">
+                                                                <label class="legendValue legendLabel" style="margin-bottom:0px;">{{hoverData[0]}}</label>
+                                                                <label class="legendDescription legendLabel" style="margin-bottom:0px;">{{hoverData[1]}}</label>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </md-tooltip>    
+                    <br>
+                        <span id="widgetTitle">TEAM SATISFACTION</span>
+                        <div data-ng-if="teamShow==true" data-ng-click="teamClick()">
+                            <div id="canvas-holder">
+                                <label class="chart-title">{{teamSat}}/10</label>
+                                <canvas id="myChart" class="chart chart-doughnut"
+                                        chart-data="teamSatChartData" chart-labels="labels" chart-Colours="teamChartColors" chart-options="options" height="110" width="130"></canvas>
+                            </div>
+
+
+                            <span class="widgetDetails">{{teamDuration}}</span>
+                        </div>
+                        <div data-ng-if="teamShow==false;" style="margin-top:8%;">
+                            <div style="display:block;margin:0 auto;">
+                                <img style="display:block;margin:0 auto;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                <span id="noInformation">NO INFORMATION FOUND</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4" style="height:270px;">
+                    <div class="Spec" data-ng-mouseover="riskHoverOver()" data-ng-mouseleave="riskHoverLeave()" >  <!--style="float:left;width:370px;"-->
+                        <md-tooltip class="large" md-direction="left" md-autohide="true">
+                            <div style="margin:0 auto;">
+                                <div style="padding-left:10px;">
+                                    <div data-ng-if="hoverValues!=''" style="line-height:0.2pt;margin:5px;padding-top:5px;"><b>Legends</b></div>
+                                    <div class="row" style="padding-left:15px;line-height:0.2pt;">
+                                        <table style="width:100%;">
+                                            <tbody>
+                                                <tr>
+                                                    <td data-ng-repeat="hoverData in hoverValues" style="width:270px;">
+                                                        <div style="display:inline-block;padding-top:10px;">
+                                                            <label class={{hoverData[2]}} style="width:25px;height:25px;border-radius:5px;"></label>
+                                                            <label style="height:25px;padding-right:15px;display:inline-block;align-content:flex-start;font-size:0;margin-left:10px;color:white;">
+                                                                <label class="legendValue legendLabel" style="margin-bottom:0px;">{{hoverData[0]}}</label>
+                                                                <label class="legendDescription legendLabel" style="margin-bottom:0px;">{{hoverData[1]}}</label>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </md-tooltip>    
+                    <br>
+                        <span id="widgetTitle">RISK MANAGEMENT</span>
+                        <div data-ng-show="loading1"><img src="/projectDashboard/Content/Images/ajax-loader.gif" style="align-content:center;padding-left:95px;padding-top:50px;padding-bottom:95px;padding-right:15px;color:gray;"><b>LOADING...</b></div>
+                        <div data-ng-hide="loading1" higgidy-carousel='images3' timeout="5000" data-ng-if="riskShow==true;">
+                            <div higgidy-carousel-images>
+                                <div data-ng-repeat="image in riskDataVales" style="position:relative;line-height: 1.1;width:{{riskDivWidth}}" data-ng-click="riskWidgetClick(image[1].riskUrl)">
+                                    <div id="circle" class={{image[0]}} data-ng-if="image[1].riskValue!=-1">
+                                        <div class="widgetCircleDetailsCover">
+                                            <span style="width:95px;">Highest Risk Value</span>
+                                            <span style="font-size:76px;line-height:1.1;display:block;margin:0 auto;text-align:center;width:95px;font-family:Roboto;">{{image[1].riskValue}}</span>
+                                        </div>
+                                    </div>
+
+                                    <div style="padding-left: 0;" data-ng-if="image[1].riskValue==-1">
+                                        <div style="display:block;margin:0 auto">
+                                            <img style="padding-left:70px;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                            <span id="noInformation" style="width:270px">NO INFORMATION FOUND</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="widgetDetailsCover" style="width:100%;padding-left: 0;">
+                                        <span class="widgetDetails">{{image[1].subProject.Name}}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <nav class="links">
+                                <ul>
+                                    <li data-ng-repeat="image in riskDataVales">
+                                        <a href="" data-ng-click="show($index)" data-ng-class="{selected: carousel.current == $index}">
+                                            {{$index}}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+
+
+
+
+
+                        <div data-ng-if="riskShow==false;" style="margin-top:8%;">
+                            <div style="display:block;margin:0 auto;">
+                                <img style="display:block;margin:0 auto;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                <span id="noInformation">NO INFORMATION FOUND</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="col-md-2">
+                    <div style="padding-left:40px;">
+                        <span data-ng-if="hoverValues!=''"><b>Legends</b></span><br><br>
+                        <div class="row" style="padding-left:15px;">
+                            <table style="width:100%;">
+                                <tbody data-ng-repeat="hoverData in hoverValues">
+                                    <tr style="margin-bottom:5px;">
+                                        <td class={{hoverData[2]}} style="width:25px;height:25px;border-radius:5px;"></td>
+                                        <td style="width:100%;height:25px;display:block;align-content:flex-start;font-size:0;margin-left:10px;">
+                                            <span class="legendValue">{{hoverData[0]}}</span>
+                                            <span class="legendDescription">{{hoverData[1]}}</span>
+                                        </td>
+                                    </tr>
+                                    <tr><td><br></td></tr>
+                                </tbody>
+                                
+                                <tr>
+                                    <td></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>-->
+                </div>
+        
+        
+        <div class="row devider"></div>
+        
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="Spec" data-ng-mouseover="cusSatHoverOver()" data-ng-mouseleave="cusSatHoverLeave()" >  <!--style="float:left;width:370px;"-->
+                        <md-tooltip id="slider-tooltip" class="large" md-direction="left" md-autohide="true">
+                            <div style="margin:0 auto;">
+                                <div style="padding-left:10px;">
+                                    <div data-ng-if="hoverValues!=''" style="line-height:0.2pt;margin:5px;padding-top:5px;"><b>Legends</b></div>
+                                    <div class="row" style="padding-left:15px;line-height:0.2pt;">
+                                        <table style="width:100%;">
+                                            <tbody>
+                                                <tr>
+                                                    <td data-ng-repeat="hoverData in hoverValues" style="width:270px;">
+                                                        <div style="display:inline-block;padding-top:10px;">
+                                                            <label class={{hoverData[2]}} style="width:25px;height:25px;border-radius:5px;"></label>
+                                                            <label style="height:25px;padding-right:15px;display:inline-block;align-content:flex-start;font-size:0;margin-left:10px;color:white;">
+                                                                <label class="legendValue legendLabel" style="margin-bottom:0px;">{{hoverData[0]}}</label>
+                                                                <label class="legendDescription legendLabel" style="margin-bottom:0px;">{{hoverData[1]}}</label>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </md-tooltip>      
+                     <br>
+
+                        <span id="widgetTitle">CUSTOMER SATISFACTION</span>
+                        <div higgidy-carousel='images2' timeout="5000" data-ng-if="customerSatShow==true" ><!--data-ng-click="customerSatClick()"-->
+                            <div higgidy-carousel-images>
+                                <div id="mainDiv" data-ng-repeat="widgetData in cusSatDataValue" style="position:relative;line-height: 1.1;width:{{cusDivWidth}}" data-ng-click="customerSatClick(widgetData[1].project.Id,cusSatDataValue[0][1].year,cusSatDataValue[0][1].quarter)">
+                                    <div id="circle" class={{widgetData[0]}} data-ng-if="widgetData[1].rating!=-1">
+                                        <div class="widgetCircleDetailsCover" >
+                                            <span style="font-size:21px;line-height:5.0;display:block;margin:0 auto;text-align:center;width:95px;font-family:Roboto;">{{widgetData[1].rating | number: 2}}/5.00</span>
+                                        </div>
+                                    </div>
+
+                                    <div data-ng-if="widgetData[1].rating==-1" style="padding-left: 0;">
+                                        <div style="display:block;margin:0 auto;">
+                                            <img style="padding-left:70px;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                            <span id="noInformation" style="width:270px">NO INFORMATION FOUND</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="widgetDetailsCover" style="width:100%;padding-left: 0;">
+                                        <span class="widgetDetails" >{{widgetData[1].project.Name}} - ({{cusSatDataValue[0][1].year}}-Q{{cusSatDataValue[0][1].quarter}})</span>
+                                        <!--style="display: -webkit-inline-box;padding-left:114px;"-->
+                                    </div>
+                                </div>
+                            </div>
+                            <nav class="links">
+                                <ul>
+                                    <li data-ng-repeat="image in cusSatDataValue">
+                                        <a href="" data-ng-click="show($index)" data-ng-class="{selected: carousel.current == $index}">
+                                            {{$index}}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <!--<div data-ng-if="customerSatShow==true" data-ng-click="customerSatClick()">
+                            <div id="canvas-holder">
+                                <label class="chart-title">{{cusVal}}/5</label>
+                                <canvas id="myChart" class="chart chart-doughnut"
+                                        chart-data="customerSatData" chart-labels="labels" chart-Colours="customerSatColors" chart-options="options" height="100" width="120"></canvas>
+                            </div>
+
+                            <div class="widgetDetailsCover">
+                                <span class="widgetDetails" style="padding-bottom:3px;">{{cusDuration}}</span>
+                                <span class="widgetDetails">{{cusPending}} projects pending</span>
+                            </div>
+                        </div>-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        <div data-ng-if="customerSatShow==false" style="margin-top:8%;">
+                            <div style="display:block;margin:0 auto;">
+                                <img style="display:block;margin:0 auto;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                <span id="noInformation">NO INFORMATION FOUND</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="Spec" data-ng-mouseover="processComHoverOver()" data-ng-mouseleave="processComHoverLeave()" >  <!--style="float:left;width:370px;"-->
+                        <md-tooltip id="slider-tooltip" class="large" md-direction="left" md-autohide="true">
+                            <div style="margin:0 auto;">
+                                <div style="padding-left:10px;">
+                                    <div data-ng-if="hoverValues!=''" style="line-height:0.2pt;margin:5px;padding-top:5px;"><b>Legends</b></div>
+                                    <div class="row" style="padding-left:15px;line-height:0.2pt;">
+                                        <table style="width:100%;">
+                                            <tbody>
+                                                <tr>
+                                                    <td data-ng-repeat="hoverData in hoverValues" style="width:270px;">
+                                                        <div style="display:inline-block;padding-top:10px;">
+                                                            <label class={{hoverData[2]}} style="width:25px;height:25px;border-radius:5px;"></label>
+                                                            <label style="height:25px;padding-right:15px;display:inline-block;align-content:flex-start;font-size:0;margin-left:10px;color:white;">
+                                                                <label class="legendValue legendLabel" style="margin-bottom:0px;">{{hoverData[0]}}</label>
+                                                                <label class="legendDescription legendLabel" style="margin-bottom:0px;">{{hoverData[1]}}</label>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </md-tooltip>       
+                    <br>
+                        <span id="widgetTitle">PROCESS & QUALITY COMPLIANCE</span>
+                        <div higgidy-carousel='images3' timeout="5000" data-ng-if="processComplianceShow==true">
+                            <!--data-ng-click="customerSatClick()"-->
+                            <div higgidy-carousel-images>
+                                <div data-ng-repeat="widgetData in processComplianceDataVal" style="position:relative;line-height: 1.1;width:{{divWidth}}"   data-ng-click="processComplianceClick(widgetData[1].Project.Id,processComplianceDataVal[0][1].Year,processComplianceDataVal[0][1].Quarter)">
+                                    <div id="circle" class={{widgetData[0]}} data-ng-if="widgetData[1].Rating!=-1">
+                                        <div class="widgetCircleDetailsCover" stye="padding-left:7px;">
+                                            <span style="font-size:55px;line-height:1.8;display:block;margin:0 auto;text-align:center;width:95px;font-family:Roboto;">{{widgetData[1].Rating | number: 2}}</span>
+                                        </div>
+                                    </div>
+
+                                    <!--<div data-ng-if="widgetData[1].Rating==-1" style="width:{{divWidth}};padding-left: 0;">
+                                        <div style="display:block;margin:0 auto;">
+                                            <img style="padding-left:70px;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                            <span id="noInformation" style="width:270px">NO INFORMATION FOUND</span>
+                                        </div>
+                                    </div>-->
+
+                                    <div style="padding-left: 0;" data-ng-if="widgetData[1].Rating==-1">
+                                        <div style="display:block;margin:0 auto">
+                                            <img style="padding-left:70px;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                            <span id="noInformation" style="width:270px">NO INFORMATION FOUND</span>
+                                        </div>
+                                    </div>
+
+                                    <div class="widgetDetailsCover" style="width:100%;padding-left: 0;">
+                                        <span class="widgetDetails">{{widgetData[1].Project.Name}} - ({{processComplianceDataVal[0][1].Year}}-Q{{processComplianceDataVal[0][1].Quarter}})</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <nav class="links">
+                                <ul>
+                                    <li data-ng-repeat="image in processComplianceDataVal">
+                                        <a href="" data-ng-click="show($index)" data-ng-class="{selected: carousel.current == $index}">
+                                            {{$index}}
+                                        </a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+
+                        <!--<div data-ng-if="processComplianceShow==true" data-ng-click="processComplianceClick()">
+                            <div id="circle" data-ng-class="processClass">
+
+                                <div class="widgetCircleDetailsCover">
+                                    <br><br>
+                                    <span style="font-size:25px;">{{processComVal}}</span>
+                                </div>
+                            </div>
+
+                            <div class="widgetDetailsCover">
+                                <span class="widgetDetails" style="padding-bottom:3px;">{{processComDuration}}</span>
+                                <span class="widgetDetails">{{processComPending}} projects pending</span>
+                            </div>
+                        </div>-->
+
+
+
+                        <div data-ng-if="processComplianceShow==false" style="margin-top:8%;">
+                            <div style="display:block;margin:0 auto;">
+                                <img style="display:block;margin:0 auto;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                <span id="noInformation">NO INFORMATION FOUND</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <div class="Spec" data-ng-mouseover="financialHoverOver()" data-ng-mouseleave="financialHoverLeave()" >  <!--style="float:left;width:370px;"-->
+                    <md-tooltip id="slider-tooltip" class="large" md-direction="left" md-autohide="true">
+                            <div style="margin:0 auto;">
+                                <div style="padding-left:10px;">
+                                    <div data-ng-if="hoverValues!=''" style="line-height:0.2pt;margin:5px;padding-top:5px;"><b>Legends</b></div>
+                                    <div class="row" style="padding-left:15px;line-height:0.2pt;">
+                                        <table style="width:100%;">
+                                            <tbody>
+                                                <tr>
+                                                    <td data-ng-repeat="hoverData in hoverValues" style="width:270px;">
+                                                        <div style="display:inline-block;padding-top:10px;">
+                                                            <label class={{hoverData[2]}} style="width:25px;height:25px;border-radius:5px;"></label>
+                                                            <label style="height:25px;padding-right:15px;display:inline-block;align-content:flex-start;font-size:0;margin-left:10px;color:white;">
+                                                                <label class="legendValue legendLabel" style="margin-bottom:0px;">{{hoverData[0]}}</label>
+                                                                <label class="legendDescription legendLabel" style="margin-bottom:0px;">{{hoverData[1]}}</label>
+                                                            </label>
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+
+
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </md-tooltip>       
+                    <br>
+                        <span id="widgetTitle">FINANCIAL STATUS</span>
+                        <div data-ng-if="financialSatShow==true" data-ng-click="financialStatusClick()">
+                            <div id="canvas-holder">
+                                <label class="chart-title">{{billableHourPercentage}}</label>
+                                <canvas id="myChart" class="chart chart-doughnut"
+                                        chart-data="financialChartData" chart-labels="labels" chart-Colours="financialChartColors" chart-options="options" height="100" width="120"></canvas>
+                            </div>
+
+                            <div class="widgetDetailsCover">
+                                <span class="widgetDetails" style="padding-bottom:3px;">{{fDuration}}</span>
+                                <span class="widgetDetails">{{fval}} Hours</span>
+                            </div>
+                        </div>
+                        <div data-ng-if="financialSatShow==false" style="margin-top:8%;">
+                            <div style="display:block;margin:0 auto;">
+                                <img style="display:block;margin:0 auto;" src="/projectDashboard/Content/Images/GrayPic.png">
+                                <span id="noInformation">NO INFORMATION FOUND</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+</div>
+

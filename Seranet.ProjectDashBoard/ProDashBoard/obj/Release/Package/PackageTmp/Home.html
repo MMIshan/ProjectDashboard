@@ -1,0 +1,139 @@
+﻿<div data-ng-controller="ProjectController" class="container">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-left">
+                <img src="../Content/Images/logo3.png" style="padding-top:10px;padding-right:20px;height:50px;">
+                <select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" value={{project[1]}}>{{project[0]}}</option>
+                </select>
+                <span style="padding-left:640px;"></span>
+                <div class="dropdown">
+
+                    <button class="dropbtn"><a><b>Forms</b></a></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a ui-sref="adminPanel">Admin Panel</a>
+                        <a ui-sref="financialForm">TimeReport Form</a>
+                    </div>
+                </div>
+
+                <a href="#/">
+                    <label style="padding-left:80px;padding-top:-5px;height:25px;align-content:flex-end;">Home</label>
+                </a>
+
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-5" style="height:15px;">
+            <label data-ng-bind="projectName" class="projectTitle"></label>
+        </div>
+    </div>
+    <br>
+    <br>
+    <section>
+        <div class="row">
+            <div ng-model="Specwidget" class="col-md-1 specWidget" id="spec" data-ng-click="redirectTo()">
+                <div class="row" data-ng-class="myclass">
+                    <label id="sval">{{specLevel}}</label>
+                    <span>{{pending}}</span>
+                </div>
+                <div class="row specName">
+                    <label id="labelName">SPEC</label>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div ng-model="cSWidget" class="col-md-1 cSWidget" id="quality">
+                <div class="row" data-ng-class="qualityClass">
+                    <label id="qval">{{qval}}</label>
+                </div>
+                <div class="row quantityName">
+                    <label id="labelName">QUALITY</label>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div ng-model="tSWidget" class="col-md-1 tSWidget" id="spec" data-ng-click="teamClick()">
+                <div class="row" data-ng-class="teamClass">
+                    <label data-ng-if="teamSat!='No Information Found'" id="tval">{{teamSat}} / 10</label>
+                    <label data-ng-if="teamSat=='No Information Found'" id="tval">{{teamSat}}</label>
+                    <span>{{teamDuration}}</span>
+                </div>
+                <div class="row teamName">
+                    <label id="labelName">TEAM SATISFACTION</label>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div ng-model="rMWidget" class="col-md-1 rMWidget" id="risk">
+                <div class="row riskVal" data-ng-class="riskClass" >
+                    
+                        <md-card layout="column" layout-align="center center" style="padding-bottom: 10px">
+                            <jk-carousel data="dataArray"
+                                         item-template-url="'item-template.html'"
+                                         max-width="800"
+                                         max-height="500"
+                                         auto-slide="true"
+                                         auto-slide-time="2000">
+                            {{slideItem}}</jk-carousel>
+                        </md-card>
+                        </div>
+                
+                <div class="row riskName">
+                    <label id="labelName">RISK MANAGEMENT</label>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-lg-8" style="padding:0px">
+                <div class="row">
+                    <div ng-model="CWidget" class="col-md-1 CWidget" id="spec" data-ng-click="customerSatClick()">
+                        <div class="row" data-ng-class="customerSatClass">
+                            <label data-ng-if="cusVal>0" id="cval">{{cusVal | number :2}} / 5</label>
+                            <label data-ng-if="cusVal=='No Information Found'" id="cval">{{cusVal}}</label>
+                            <span>{{cusDuration}}</span><br>
+                            <span>{{cusPending}}</span>
+                        </div>
+                        <div class="row cusName">
+                            <label id="labelName">CUSTOMER SATISFACTION</label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div ng-model="pCWidget" class="col-lg-10 col-lg-10 col-lg-10 col-lg-10 pCWidget" id="spec" data-ng-click="processComplianceClick()">
+                        <div class="row" data-ng-class="processComClass">
+                            <label data-ng-if="processComVal>0" id="pval">{{processComVal | number :2}}</label>
+                            <label data-ng-if="processComVal=='No Information Found'" id="pval">{{processComVal}}</label>
+                            <span>{{processComDuration}}</span><br>
+                            <span>{{processComPending}}</span>
+                        </div>
+                        <div class="row processName">
+                            <label id="labelName">PROCESS AND QUALITY COMPLIANCE</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div ng-model="fSWidget" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 fSWidget" id="spec" data-ng-click="financialStatusClick()"> 
+                        <div class="row" data-ng-class="financialClass">
+                            <label id="fval">{{fval}}</label>
+                            <span>{{fDuration}}</span><br>
+                            <span>{{billableHourPercentage}}</span>
+                        </div>
+                        <div class="row finantialName">
+                            <label id="labelName">FINANCIAL STATUS</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    
+</div>

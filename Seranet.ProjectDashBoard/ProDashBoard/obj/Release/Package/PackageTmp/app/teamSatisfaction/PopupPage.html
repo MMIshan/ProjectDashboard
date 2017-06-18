@@ -1,0 +1,35 @@
+﻿<div style="font-family:Roboto;padding:5px;" aria-hidden="false" class="modal-content1 modal-open">
+    <div class="modal-body modal-header">
+        <button type="button" class="close" data-ng-click="close()" aria-hidden="true">×</button>
+        <h3 class="modal-title">Team Satisfaction Review</h3>
+    </div>
+    
+    <div class="modal-body">
+        <div class="row" style="padding-bottom:5px;">
+            <div class="col-md-3"><b>Employee</b></div><div class="col-md-3">{{reviewData[0][0]}}</div>
+        </div>
+        <div class="row" style="padding-bottom:5px;">
+            <div class="col-md-3"><b>Team</b></div><div class="col-md-3">{{reviewData[0][3]}}</div>
+        </div>
+        <div class="row" style="padding-bottom:5px;">
+            <div class="col-md-3"><b>Quarter</b></div><div class="col-md-3">Q{{reviewData[0][2]}}-{{reviewData[0][1]}}</div>
+        </div>
+        <hr>
+
+        <table class="reviewTable">
+            <tbody data-ng-repeat="review in reviewData">
+                <tr><td>({{review[8]}}) {{review[4]}} ?</td></tr>
+                <tr data-ng-if="review[7]=='yes' && review[5]!='0'" style="color:cornflowerblue;"><td>Answer : Yes</td></tr>
+                <tr data-ng-if="review[7]=='yes' && review[5]=='0'" style="color:cornflowerblue;"><td>Answer : No</td></tr>
+                <tr data-ng-if="review[7]=='no' && review[5]!='0'" style="color:cornflowerblue;"><td>Answer : No</td></tr>
+                <tr data-ng-if="review[7]=='no' && review[5]=='0'" style="color:cornflowerblue;"><td>Answer : Yes</td></tr>
+                <tr data-ng-if="review[7]=='rate'" style="color:cornflowerblue;"><td>Answer : {{review[5]}}</td></tr>
+                <tr data-ng-if="review[6]!='undefined'" style="color:cornflowerblue;"><td>Comment : {{review[6]}}</td></tr>
+                <tr style="height:15px;"><td></td></tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal-footer">
+        <button class="btn btn-warning" type="button" data-ng-click="close()">Close</button>
+    </div>
+</div>

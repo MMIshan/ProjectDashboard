@@ -1,0 +1,74 @@
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\obj\Debug\ProDashBoard.Dal.csprojResolveAssemblyReference.cache
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ApplicationInsights.config
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\csc.exe
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\System.Collections.Immutable.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\System.Reflection.Metadata.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\vbc.exe
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\VBCSCompiler.exe
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\VBCSCompiler.exe.config
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Repository.dll.config
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Repository.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Repository.pdb
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Dapper.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.Agent.Intercept.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.DependencyCollector.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.Web.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.WindowsServer.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.ApplicationInsights.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Model.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Dapper.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.DependencyCollector.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.Web.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.WindowsServer.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.ApplicationInsights.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Model.pdb
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\obj\Debug\ProDashBoard.Repository.dll
+E:\LastUpdatedProject\Project\2016-7-18\ProDashBoard\ProDashBoard.Repository\obj\Debug\ProDashBoard.Repository.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ApplicationInsights.config
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\csc.exe
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\System.Collections.Immutable.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\System.Reflection.Metadata.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\vbc.exe
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\VBCSCompiler.exe
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\roslyn\VBCSCompiler.exe.config
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Repository.dll.config
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Repository.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Repository.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Dapper.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.Agent.Intercept.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.DependencyCollector.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.Web.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.WindowsServer.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.ApplicationInsights.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Model.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Dapper.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.DependencyCollector.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.Web.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.AI.WindowsServer.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.ApplicationInsights.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\bin\ProDashBoard.Model.pdb
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\obj\Debug\ProDashBoard.Dal.csprojResolveAssemblyReference.cache
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\obj\Debug\ProDashBoard.Repository.dll
+E:\CompleteSolution\Project - Copy\2016-7-18\ProDashBoard\ProDashBoard.Repository\obj\Debug\ProDashBoard.Repository.pdb

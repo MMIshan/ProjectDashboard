@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="Default Web Site/proDashboard" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DashBoard-Web.config Connection String" description="" value="Data Source=(localdb)\v11.0; Initial Catalog=Inventry; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|Inventry.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DashBoard']/@connectionString" />
+  </parameter>
+  <parameter name="DashBoard1-Web.config Connection String" description="" value="Data Source=.\MSSQL_2014;Initial Catalog=Inventry;Persist Security Info=True;user id=ishan1234;password=Ishanishan11;" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DashBoard1']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-ProDashBoard-20160711095354.mdf;Initial Catalog=aspnet-ProDashBoard-20160711095354;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="Financial-Web.config Connection String" description="" value="data source=172.20.1.182;initial catalog=TRA;persist security info=True;user id=sa;password=tra-mis@123;" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Financial']/@connectionString" />
+  </parameter>
+  <parameter name="Spec-Web.config Connection String" description="" value="Data Source=99xt.lk;Initial Catalog=SPECM2;Persist Security Info=True;user id=SpecIntegration;password=spec@123;" tags="">
+    <parameterEntry kind="XmlFile" scope="E:\\UpdatedOne\\MaterialCheck\ -\ Copy\ \(5\)\ -\ Copy\\New\ folder\\ProDashBoard\\ProDashBoard\\obj\\x64\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Spec']/@connectionString" />
+  </parameter>
+</parameters>

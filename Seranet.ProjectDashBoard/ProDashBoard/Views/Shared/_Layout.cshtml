@@ -1,0 +1,36 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html data-ng-app="app">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <script>
+        console.log(location.href === 'http://localhost:59252/#/');
+        console.log(location.href === 'http://99xt.lk/projectdashboard');
+        if (location.href === 'http://99xt.lk/projectdashboard' || location.href === 'http://localhost/projectdashboard1' || location.href === 'http://localhost/projectdashboard') {
+            location.href = location.href + '/';
+        }
+
+    </script>
+</head>
+<body>
+   
+    <ui-view></ui-view>
+    @RenderBody()
+    
+    @Scripts.Render("~/bundles/jquery")
+    
+    @Scripts.Render("~/bundles/angularjs")
+   
+    @Scripts.Render("~/bundles/bootstrap")
+
+    @Scripts.Render("~/bundles/appjs")
+
+    @RenderSection("scripts", required: false)
+    
+   
+</body>
+</html>

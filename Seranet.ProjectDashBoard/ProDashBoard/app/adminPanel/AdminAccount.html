@@ -1,0 +1,163 @@
+﻿<div data-ng-controller="adminAccountController" class="modal-body" style="padding-top: 0;">
+    <!--<a ui-sref=".account"></a>-->
+    <toaster-container toaster-options="{'time-out': 3000,'position-class': 'toast-top-right'}"></toaster-container>
+    <!--<div class="row">-->
+    <!--<button data-ng-click="createAccountClick()" style="margin-right:15px;height:30px;" class="btn btn-secondary q1">Create New Account</button>-->
+    <!--<span><input type="checkbox" style="width:16px;height:16px;margin-left:9%;" data-ng-checked="active" data-ng-model="activeness" data-ng-click="activityChanged()" id="accountCheck">&nbsp; Show Inactive Accounts</span>-->
+    <!--</div><br />-->
+    <div class="row">
+        <div class="col-md-4" style="display:block;width:230px;padding-left:10px;padding-right:0;">
+
+            <span style="display:block;margin-bottom:10px;margin-top:10px;"><input type="checkbox" style="width:16px;height:16px;" data-ng-checked="active" data-ng-model="activeness" data-ng-click="activityChanged()" id="accountCheck">&nbsp; Show Inactive Accounts</span>
+            <button data-ng-if="isAdmin==true" data-ng-click="createAccountClick()" style="margin-right:15px;height:30px;margin-bottom:10px;" class="btn btn-secondary adminProjectField mainBut">Create New Account</button>
+            <input type="text" data-ng-model="searchKeyword" placeholder="Search Account" class="form-control" style="width:100%;margin:0;text-align:center;">
+            <br>
+            <div class="col-noPadding">
+
+                <ul class="nav nav-pills nav-stacked">
+                    <li data-ng-repeat="actAccount in activeAccounts | filter: {AccountName : searchKeyword}" style="width:100%;margin:0;" data-ng-class="clickedButton == actAccount.Id ? 'active' : '' "><a data-ng-click="accountClick(actAccount)" href="#">{{actAccount.AccountName}}</a></li>
+                    <li data-ng-repeat="InactAccount in inactiveAccounts | filter: {AccountName : searchKeyword}" style="width:100%;margin:0;" data-ng-class="clickedButton == InactAccount.Id ? 'active' : '' "><a data-ng-click="accountClick(InactAccount)" href="#" style="color:#FFA500">{{InactAccount.AccountName}}</a></li>
+
+                </ul>
+                <!--<button data-ng-repeat="actAccount in activeAccounts | filter: {AccountName : searchKeyword}" style="width:100%;margin:0;" data-ng-click="accountClick(actAccount)" data-ng-class="clickedButton == actAccount.Id ? 'q1' : '' ">{{actAccount.AccountName}}</button>
+                <button data-ng-repeat="InactAccount in inactiveAccounts | filter: {AccountName : searchKeyword}" style="width:100%;margin:0;background-color:#FFA500;" data-ng-click="accountClick(InactAccount)" data-ng-class="clickedButton == InactAccount.Id ? 'q1' : '' ">{{InactAccount.AccountName}}</button>-->
+
+
+            </div>
+        </div>
+        <!--<div class="col-sm-1"></div>-->
+        <div class="col-lg-9" style="border-left: 1px solid #ccc;padding-top:10px;margin-left:25px;margin-top:10px;">
+            <form name="AdminAccountForm" data-ng-submit="submitForm()" novalidate>
+
+                <!--<div class="row">
+                    <div class="col-md-3">
+                        <button data-ng-click="createAccountClick()" style="margin-right:15px;height:30px;" class="btn btn-secondary q1">Create New Account</button>
+                    </div>
+                </div>
+                <br/>-->
+
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <span>Account Name<span class="mandatory">*</span></span>
+                    </div>
+                    <div class="col-md-5">
+                        <span><input type="text" class="form-control adminProjectField" data-ng-disabled="false" data-ng-model="accountName" required></span>
+                    </div>
+
+                    <div class="col-md-2">
+                        <span>Account Owner<span class="mandatory">*</span></span>
+                    </div>
+                    <div class="col-md-3">
+                        <span>
+                            <select class="form-control adminProjectField" data-ng-model="accountOwner" required>
+                                <option data-ng-repeat="employee in employees" data-ng-selected="selectedEmpId == {{employee.Id}} ? 'selected' : '' " value={{employee.Id}}>{{employee.MemberName}}</option>
+                            </select>
+                        </span>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col-md-2">
+                        <span>Description</span>
+                    </div>
+                    <div class="col-md-5">
+                        <span><textarea class="form-control adminProjectField" data-ng-model="accountDescription"></textarea></span>
+                    </div>
+
+                    <div class="col-md-2">
+                        <span>Account Code<span class="mandatory">*</span></span>
+                    </div>
+                    <div class="col-md-3">
+                        <span><input type="text" class="form-control adminProjectField" data-ng-model="accountCode" required></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2">
+                        <br/>
+                        <span>Jira Project Code(s)</span>
+                    </div>
+
+                    <div class="col-md-5">
+                        <br>
+                        <span><input type="text" class="form-control adminProjectField" data-ng-model="allProjectCodes" ></span>
+                        <!--<span><md-checkbox class="md-warn md-align-top-left"  data-ng-click="setselectedAccountAvailability()" id="selectedAccountCheck" data-ng-model="isAccountInactive" label="md-checkbox" data-ng-disabled="accountDisabled">Inactive Account</md-checkbox></span>-->
+                    </div>
+
+
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-3">
+                        <br>
+                        <span><button class="btn btn-secondary adminProjectField mainBut" data-ng-click="createNewProject()">Create New Project</button></span>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="col-md-2">
+
+                    </div>
+                    <div class="col-md-5">
+                        <br />
+                        <h4><b>Sub Projects</b></h4>
+                    </div>
+
+                    <div class="col-md-2">
+                        
+                    </div>
+
+                    <div class="col-md-3">
+                        <!--<br>-->
+                        <md-switch data-ng-model="isAccountInactive" aria-label="Switch 1" class="md-warn">
+                            Deactivate Account
+                        </md-switch>
+                        <!--<span><md-checkbox class="md-warn md-align-top-left"  data-ng-click="setselectedAccountAvailability()" id="selectedAccountCheck" data-ng-model="isAccountInactive" label="md-checkbox" data-ng-disabled="accountDisabled">Inactive Account</md-checkbox></span>-->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-2" style="margin-right:12px;padding-top:360px;">
+                        <div class="col-md-2">
+                            <button class="btn btn-secondary adminProjectField mainBut" data-ng-disabled="AdminAccountForm.$invalid" style="width:100px;" data-ng-click="saveAccount()">Save</button>
+                        </div>
+                    </div>
+                    <div class="adminAccountProjectCover">
+
+                        <table id="adminAccountProjects" style="width:100%;">
+                            <tr style="border-bottom: 1px solid #ccc;">
+                                <th style="padding-left:15px;width:85%;">Name</th>
+                                <th>Deactivate</th>
+                            </tr>
+                            <tr data-ng-repeat="project in projects">
+                                <td style="padding-left:15px;width:85%;">{{project.Name}}</td>
+                                <td style="padding-left:10px;"><input type="checkbox" style="width:16px;height:25px;" data-ng-init="projectCheck[project.Id]=!project.Enabled" data-ng-model="projectCheck[project.Id]" data-ng-change="setselectedProjectAvailability(project.Id)" value="Inactive"></td>
+                            </tr>
+                            <tr data-ng-repeat="newProject in newProjects">
+                                <td class="col" style="padding-left:15px;"><input type="text" style="width:100px;height:25px;" data-ng-model="createdProjects[newProject]" required></td>
+                                <td style="padding-left:10px"><input type="checkbox" style="width:16px;height:25px;;" id="createdProjectCheck" disabled>Inactive</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <!--<div class="row" style="height:35px;" data-ng-repeat="project in projects">
+                        <div class="col-md-9">{{project.Name}}</div>
+                        <div class="col"><input type="checkbox" style="width:16px;height:16px;" data-ng-click="setselectedProjectAvailability()" id="selectedProjectCheck" data-ng-checked={{project.Enabled}}>&nbsp;Inactive</div>
+                    </div>-->
+                </div>
+
+                <!--<div class="row">
+
+                    <div class="col-md-2">
+                        <button class="btn btn-secondary adminProjectField q1" data-ng-disabled="AdminAccountForm.$invalid" style="width:100px;" data-ng-click="saveAccount()">Save</button>
+                    </div>
+                </div>-->
+            </form>
+        </div>
+
+    </div>
+
+
+</div>
+
+</div>

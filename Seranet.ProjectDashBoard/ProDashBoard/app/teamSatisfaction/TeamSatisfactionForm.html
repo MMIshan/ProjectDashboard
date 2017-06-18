@@ -1,0 +1,166 @@
+﻿<div data-ng-controller="teamFormController" class="modal-content">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="col-md-4" style="padding-left:0">
+                <a href="#/"><img src="/projectDashboard/Content/Images/logo2.png" style="padding-top:15px;padding-right:20px;height:45px;"></a>
+                &nbsp;
+                <div class="dropdown">
+
+                    <button class="dropbtn" style="color:#6E6E6E;font-weight:normal;"><b>Forms</b></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="padding-top:10px;display:block;margin:0 auto;">
+                <!--<select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" value={{project[1]}}>{{project[0]}}</option>
+                </select>-->
+
+            </div>
+
+            <div class="col-md-4" style="padding-top:18px;display:block;">
+                <label style="float:right;color:#7F7F7F;font-weight:normal;font-family: 'Leelawadee UI';font-size:14px;">{{LoggedInUserName}}</label>
+
+            </div>
+
+        </div>
+    </div>
+    <toaster-container toaster-options="{'time-out': 3000,'position-class': 'toast-top-right'}"></toaster-container>
+    <br><br>
+    <div class="teamChart well" style="background-color:white;padding:15px;">
+    <div class="row modal-body modal-header">
+        <h3 class="modal-title">Team Satisfaction Survey</h3>
+    </div>
+        <br>
+    <div class="row" style="padding-left:20px;">
+        <form name="teamSatisfactionSurveyForm" data-ng-submit="submitForm()" novalidate>
+
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Employee</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <input type="text" data-ng-model="employeeName" class="form-control ng-pristine ng-valid" style="height:30px;width:150px;" readonly="">
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Year</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <select class="form-control" data-ng-model="yearCombo" style="height:30px;width:150px;" data-ng-change="yearChange()" data-ng-disabled="accountChanged" required>
+                                <option data-ng-repeat="x in yearArray" value={{x}}>{{x}}</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Account</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <select class="form-control" data-ng-model="accountCombo" style="height:30px;width:150px;" data-ng-change="accountChange()" required>
+                                <option data-ng-repeat="account in accounts" value={{account[1]}}>{{account[0]}}</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!--<div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Project</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <select class="form-control" data-ng-model="teamCombo" style="height:30px;width:150px;" required>
+                                <option data-ng-repeat="project in projects" value={{project[0]}}>{{project[1]}}</option>
+                            </select>
+                        </div>
+                    </div>-->
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Quarter</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <select class="form-control" data-ng-model="quarterCombo" style="height:30px;width:150px;" data-ng-disabled="accountChanged" required>
+                                <option data-ng-repeat="q in quaterArray" value={{q}}>Quarter {{q}}</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row" style="padding-left:10px;font-family:Roboto;font-size:15px;">
+                <table>
+                    <tbody data-ng-repeat="Question in Questions">
+                        <tr style="padding-bottom:100px;">
+                            <td style="width:700px">({{Question.QuestionOrder}}) {{Question.QuestionName}}</td>
+                            <td style="width:15%;"></td>
+                            <td data-ng-if="Question.QuestionType=='rate'">
+                                <select class="form-control" data-ng-model="rateArray[Question.Id]" required>
+                                    <option data-ng-repeat="va in myFun(Question.MaxValue)" value={{va}}>{{va}}</option>
+                                </select>
+                            </td>
+                            <td data-ng-if="Question.QuestionType=='yes'">
+                                <select class="form-control" data-ng-model="rateArray[Question.Id]" required>
+                                    <option value={{Question.MaxValue}}>Yes</option>
+                                    <option value=0>No</option>
+                                </select>
+                            </td>
+                            <td data-ng-if="Question.QuestionType=='no'">
+                                <select class="form-control" data-ng-model="rateArray[Question.Id]" required>
+                                    <option value=0>Yes</option>
+                                    <option value={{Question.MaxValue}}>No</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr data-ng-if="Question.QuestionHint!=null && Question.QuestionHint!=''">
+                            <td style="width:700px;font-style:italic;font-size:13px;">({{Question.QuestionHint}})</td>
+                        </tr>
+                        <tr data-ng-if="Question.QuestionNote!=null && Question.QuestionNote!=''">
+                            <td style="width:700px;font-style:italic;font-size:13px;"> {{Question.QuestionNote}}</td>
+                        </tr>
+                        <tr><td><br></td></tr>
+                        <tr>
+                            <td data-ng-if="Question.Comment==1 && (Question.QuestionType=='rate' || Question.QuestionType=='yes' || Question.QuestionType=='no') && Question.Mandatory==1">
+                                <md-input-container class="md-block">
+                                    <label>Comment</label>
+                                    <input data-ng-model="commentArray[Question.Id]" required>
+                                </md-input-container>
+                            </td>
+                            <td data-ng-if="Question.Comment==1 && (Question.QuestionType=='rate' || Question.QuestionType=='yes'  || Question.QuestionType=='no') && Question.Mandatory==0">
+                                <md-input-container class="md-block">
+                                    <label>Comment</label>
+                                    <input data-ng-model="commentArray[Question.Id]">
+                                </md-input-container>
+                            </td>
+                            <td data-ng-if="Question.Comment==1 && Question.QuestionType=='text'">
+                                <md-input-container class="md-block">
+                                    <label>Comment</label>
+                                    <input data-ng-model="commentArray[Question.Id]" required>
+                                </md-input-container>
+                            </td>
+                            <!--<td data-ng-if="Question.Comment==1 && (Question.QuestionType=='rate' || Question.QuestionType=='yes' || Question.QuestionType=='no') && Question.Mandatory==1">
+                                <textarea class="form-control" rows="4" cols="102" data-ng-model="commentArray[Question.Id]" required></textarea>
+                            </td>
+                            <td data-ng-if="Question.Comment==1 && (Question.QuestionType=='rate' || Question.QuestionType=='yes'  || Question.QuestionType=='no') && Question.Mandatory==0">
+                                <textarea class="form-control" rows="4" cols="102" data-ng-model="commentArray[Question.Id]"></textarea>
+                            </td>
+                            <td data-ng-if="Question.Comment==1 && Question.QuestionType=='text'">
+                                <textarea class="form-control" rows="4" cols="102" data-ng-model="commentArray[Question.Id]" required></textarea>
+                            </td>-->
+                        </tr>
+                        <tr><td><br></td></tr>
+                    </tbody>
+                </table>
+
+            </div>
+
+            <button type="submit" class="btn btn-secondary adminProjectField q1" data-ng-disabled="teamSatisfactionSurveyForm.$invalid" data-ng-model="submitBut" id="subBut">Submit</button>
+        </form>
+
+    </div>
+        </div>
+
+</div>

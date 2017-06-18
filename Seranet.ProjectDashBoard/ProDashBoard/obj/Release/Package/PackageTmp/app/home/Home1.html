@@ -1,0 +1,228 @@
+﻿<div data-ng-controller="ProjectController" class="modal-content">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="navbar-left">
+                <img src="../Content/Images/logo3.png" style="padding-top:10px;padding-right:20px;height:50px;">
+                <select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" value={{project[1]}}>{{project[0]}}</option>
+                </select>
+                
+                </div>
+            <div class="navbar-right">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item" style="width:180px;color:white;font-size:14px;">
+                        <br>
+                        <span><b>{{LoggedInUserName}}</b></span>
+                    </li>
+                    <li class="nav-item" >
+                        <a class="nav-link" href="#/"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/"><span class="sr-only">(current)</span></a>
+                    </li>
+                   <li class="nav-item"  >
+                        <div class="dropdown" >
+
+                            <button class="dropbtn" style="color:rgba(52,152,219,1);"><b>Forms</b></button>
+
+                            <div class="dropdown-content">
+                                <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                                <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                                <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                                <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/"><span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#/" style="color:rgba(52,152,219,1);"><b>Home</b><span class="sr-only">(current)</span></a>
+                    </li>
+
+                </ul>
+                    
+
+                    <!--<a href="#/">
+                        <label style="padding-left:80px;padding-top:-5px;height:25px;align-content:flex-end;">Home</label>
+                    </a>-->
+
+</div>
+
+            <!--<div class="container">
+                <div class="navbar-left">
+                    <img src="../Content/Images/logo3.png" style="padding-top:10px;padding-right:80px;height:50px;">
+                    <input type="text" data-ng-model="te" class="projectList" readonly id="labelName" style="font-weight:700;align-content:center;" />
+                </div>
+
+                <div class="navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#/">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <!--<li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                    </ul>
+                    <!--<br>
+            <a href="#/">
+                <label style="padding-top:-5px;height:25px;align-content:flex-end;">Home</label>
+            </a>
+                </div>
+
+            </div>-->
+
+        </div>
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-md-5" style="height:15px;">
+            <label data-ng-bind="projectName" class="projectTitle"></label>
+        </div>
+    </div>
+    <br>
+    <br>
+    <section>
+        <div class="row">
+            <div ng-model="Specwidget" class="col-sm-5 specWidget" id="spec" data-ng-click="redirectTo()">
+                <div class="row" data-ng-class="myclass">
+                    <label id="sval">{{specLevel}}</label>
+                    <span>{{pending}}</span>
+                </div>
+                <div class="row specName">
+                    <label id="labelName">SPEC</label>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div ng-model="cSWidget" class="col-md-1 cSWidget" id="quality">
+                <div class="row" data-ng-class="qualityClass">
+                    <label id="qval">{{qval}}</label>
+                </div>
+                <div class="row quantityName">
+                    <label id="labelName">QUALITY</label>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div ng-model="tSWidget" class="col-md-5 tSWidget" id="spec" data-ng-click="teamClick()">
+                <div class="row" data-ng-class="teamClass">
+                    <label data-ng-if="teamSat!='No Information Found'" id="tval">{{teamSat}} / 10</label>
+                    <label data-ng-if="teamSat=='No Information Found'" id="tval">{{teamSat}}</label>
+                    <span>{{teamDuration}}</span>
+                </div>
+                <div class="row teamName">
+                    <label id="labelName">TEAM SATISFACTION</label>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div ng-model="rMWidget" class="col-md-5 rMWidget" id="risk">
+                <div data-ng-show="loading1" class="row riskVal info"  ><img src="http://www.nasa.gov/multimedia/videogallery/ajax-loader.gif" style="align-content:center;padding-left:95px;padding-top:95px;padding-bottom:95px;padding-right:15px;">LOADING...</div>
+                <div data-ng-hide="loading1" class="row riskVal" data-ng-class="riskClass">
+                    <div style="background-color:rgb(236,57,57);color:white;font-size:24px;font-weight:bold;">
+                    <div higgidy-carousel='images' timeout="3000" >
+                        <div higgidy-carousel-images >
+                            <div data-ng-repeat="image in riskDataVales" style="position:relative;" data-ng-click="riskWidgetClick(image.riskUrl)">
+                                <!--<a href={{image.riskUrl}}>-->
+                                <!--<a href="{{image}}">-->
+                                    <label id="cval" style="color:white;">{{image.riskValue}}</label><br>
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <label id="cval" style="color:white">{{image.subProject.Name}}</label>
+                                    </a>
+                                <!--</a>-->
+                            </div>
+                            <div>
+
+                            </div>
+                        </div>
+                       
+                        <nav class="links">
+                            <ul>
+                                <li data-ng-repeat="image in riskDataVales">
+                                    <a href="" data-ng-click="show($index)" data-ng-class="{selected: carousel.current == $index}">
+                                        {{$index}}
+                                    </a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                        </div>
+                </div>
+
+                <div class="row riskName">
+                    <label id="labelName">RISK MANAGEMENT</label>
+                    <br>
+                </div>
+            </div>
+            <div class="col-sm-1"></div>
+            <div class="col-lg-8" style="padding:0px">
+                <div class="row">
+                    <div ng-model="CWidget" class="col-md-1 CWidget" id="spec" data-ng-click="customerSatClick()">
+                        <div class="row" data-ng-class="customerSatClass">
+                            <label data-ng-if="cusVal>0" id="cval">{{cusVal | number :2}} / 5</label>
+                            <label data-ng-if="cusVal=='No Information Found'" id="cval">{{cusVal}}</label>
+                            <span>{{cusDuration}}</span><br>
+                            <span>{{cusPending}}</span>
+                        </div>
+                        <div class="row cusName">
+                            <label id="labelName">CUSTOMER SATISFACTION</label>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div ng-model="pCWidget" class="col-lg-10 col-lg-10 col-lg-10 col-lg-10 pCWidget" id="spec" data-ng-click="processComplianceClick()">
+                        <div class="row" data-ng-class="processComClass">
+                            <label data-ng-if="processComVal>0" id="pval">{{processComVal | number :2}}</label>
+                            <label data-ng-if="processComVal=='No Information Found'" id="pval">{{processComVal}}</label>
+                            <span>{{processComDuration}}</span><br>
+                            <span>{{processComPending}}</span>
+                        </div>
+                        <div class="row processName">
+                            <label id="labelName">PROCESS AND QUALITY COMPLIANCE</label>
+                        </div>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <!--<div ng-model="fSWidget" class="col-lg-3 col-md-3 col-sm-3 col-xs-3 fSWidget" id="spec" data-ng-click="financialStatusClick()">
+                        <div class="row" data-ng-class="financialClass">
+                            <label id="fval">{{fval}}</label>
+                            <span>{{fDuration}}</span><br>
+                            <span>{{billableHourPercentage}}</span>
+                        </div>
+                        <div class="row finantialName">
+                            <label id="labelName">FINANCIAL STATUS</label>
+                        </div>
+                    </div>-->
+
+                    <div ng-model="fSWidget" class="col-md-4 col-md-4 col-md-4 col-md-4 fSWidget" id="spec" data-ng-click="financialStatusClick()">
+                        <div id="canvas-holder">
+                            <label class="chart-title">6.7/10</label>
+                            <canvas id="myChart" class="chart chart-doughnut"
+                                    chart-data="dougnutData" chart-labels="labels" chart-Colours="colors" chart-options="options" height="80" width="100"></canvas>
+                        </div>
+                        </div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+</div>
+

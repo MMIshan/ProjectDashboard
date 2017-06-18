@@ -1,0 +1,100 @@
+﻿<div data-ng-controller="myController" class="modal-content">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="col-md-4" style="padding-left:0">
+                <a href="#/"><img src="/projectDashboard/Content/Images/logo2.png" style="padding-top:15px;padding-right:20px;height:45px;"></a>
+                &nbsp;
+                <div class="dropdown">
+
+                    <button class="dropbtn" style="color:#6E6E6E;font-weight:normal;"><b>Forms</b></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="padding-top:10px;display:block;margin:0 auto;">
+                <select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList" >
+                    <option data-ng-repeat="project in userAccounts" data-ng-selected="proId == {{project[1]}} ? 'selected' : '' " value={{project[1]}}>{{project[0]}}</option>
+                </select>
+
+            </div>
+
+            <div class="col-md-4" style="padding-top:18px;display:block;">
+                <label style="float:right;color:#7F7F7F;font-weight:normal;font-family: 'Leelawadee UI';font-size:14px;">{{LoggedInUserName}}</label>
+
+            </div>
+
+        </div>
+    </div>
+    <br>
+    <br>
+    <toaster-container toaster-options="{'time-out': 3000,'position-class': 'toast-top-right'}"></toaster-container>
+    <div style="margin-left:1.5%;">
+    <div class="row teamChart well">
+        <div class="col-md-6">
+            <span id="labelName" style="font-size:25px;"><b>Team Satisfaction</b></span>
+            <br><br>
+            <span id="labelName"><b>Team Satisfaction Trends</b></span>
+            <br>
+        </div>
+        <canvas id="bar" chart-options="options" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-click="onClick" chart-Colours="colors" height="250" width="1200" responsive="false" style="padding-top:15px;"></canvas>
+    </div>
+    <br>
+    <div class="row teamChart well">
+        <div class="row resultsHeaderContent">
+            <div style="margin-top:10px;margin-left:15px;">
+                <div class="col-md-5">
+                    <span id="labelName"><b>Team Survey Result Calculator</b></span>
+                </div>
+                <div class="col-md-7">
+                    <select data-ng-model="yearCombo" class="form-control field">
+                        <option data-ng-repeat="x in yearArray" value={{x}}>{{x}}</option>
+                    </select>
+                    <input type="button" value="Quarter 1" data-ng-model="q1" data-ng-class="quarter1" data-ng-click="q1Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <input type="button" value="Quarter 2" data-ng-model="q2" data-ng-class="quarter2" data-ng-click="q2Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <input type="button" value="Quarter 3" data-ng-model="q3" data-ng-class="quarter3" data-ng-click="q3Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                    <input type="button" value="Quarter 4" data-ng-model="q4" data-ng-class="quarter4" data-ng-click="q4Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                </div>
+            </div>
+        </div>
+        <div class="outer">
+            <div class="inner">
+                <table id="teamTable" data-ng-show="sh1">
+                    <tr class="tableHeader">
+                        <th style="width:400px;font-weight:900;padding-left:15px;">Questions</th>
+                        <th data-ng-repeat="x1 in selectedPro[0]" style="font-weight:900;text-align:center">{{x1[1]}}</th>
+                    </tr>
+
+                    <tr data-ng-repeat="x in selectedPro">
+                        <td style="padding-left:15px;padding-right:15px;">{{x[0][2]}}</td>
+                        <td style="text-align:center" data-ng-repeat="y in x">{{y[3]}}</td>
+                    </tr>
+
+                    <tr>
+                        <td style="font-weight:900;padding-left:15px;">Overall Average</td>
+                        <td style="font-weight:900;text-align:center" data-ng-repeat="x2 in empAverages">{{x2.Rating}}</td>
+                        <td data-ng-if="isAdmin==true || isTeamLead==true" style="font-weight:900;text-align:center">{{overall}}</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight:900;padding-left:15px;">View Full Report</td>
+                        <td style="text-align:center" data-ng-repeat="employee in send">
+                            <label data-ng-if="activeRights==true" data-ng-click="open(employee,$event)" style="color:#2979FF;cursor:pointer;" value="asd">VIEW{{x1}}</label>
+                            <label data-ng-if="activeRights!=true && employee==loggedInUserId" data-ng-click="open(employee,$event)" style="color:#2979FF;cursor:pointer;" value="asd">VIEW{{x1}}</label>
+                         </td>
+                        <td data-ng-if="selectedPro[0].length>1" style=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+        </div>
+</div>
+
+
+

@@ -1,0 +1,127 @@
+﻿<div data-ng-controller="processComplianceFormController" class="modal-content">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="col-md-4" style="padding-left:0">
+                <a href="#/"><img src="/projectDashboard/Content/Images/logo2.png" style="padding-top:15px;padding-right:20px;height:45px;"></a>
+                &nbsp;
+                <div class="dropdown">
+
+                    <button class="dropbtn" style="color:#6E6E6E;font-weight:normal;"><b>Forms</b></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="padding-top:10px;display:block;margin:0 auto;">
+                <!--<select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" value={{project[1]}}>{{project[0]}}</option>
+                </select>-->
+
+            </div>
+
+            <div class="col-md-4" style="padding-top:18px;display:block;">
+                <label style="float:right;color:#7F7F7F;font-weight:normal;font-family: 'Leelawadee UI';font-size:14px;">{{LoggedInUserName}}</label>
+
+            </div>
+
+        </div>
+    </div>
+    <toaster-container toaster-options="{'time-out': 3000,'position-class': 'toast-top-right'}"></toaster-container>
+    <br><br>
+    <div class="teamChart well" style="background-color:white;padding:15px;">
+        <div class="row modal-body modal-header">
+            <h3 class="modal-title">Process Compliance Survey</h3>
+        </div>
+        <br>
+        <form name="processComplianceSurveyForm" data-ng-submit="submitForm()" novalidate>
+            <div class="row">
+
+                <div class="col-md-4">
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Project</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <select class="form-control" data-ng-model="projectCombo" style="height:30px;width:150px;" data-ng-change="projectComboChange()" required>
+                                <option data-ng-repeat="project in projects" value={{project}}>{{project.Name}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Year</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <select class="form-control" data-ng-model="yearCombo" style="height:30px;width:150px;" data-ng-change="yearChange()" required>
+                                <option data-ng-repeat="x in yearArray" value={{x}}>{{x}}</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Rating</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <input type="text" data-ng-model="rating" class="form-control" style="width:150px;" value="0" data-ng-keypress="filterValue($event)" required />
+
+                        </div>
+                    </div>
+                </div>
+                <div class=""></div>
+                <div class="col-md-4">
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Account</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <input type="text" data-ng-model="account" class="form-control" style="height:30px;width:150px;" readonly>
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>Period</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <select class="form-control" data-ng-model="quarterCombo" style="height:30px;width:150px;" required>
+                                <option data-ng-repeat="q in quaterArray" value={{q}}>{{q}} Half</option>
+
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row" style="padding-bottom:5px;">
+                        <div class="col-md-3"><b>ISO Level</b></div>
+                        <div class="col-md-2" style="color:red;">
+                            <input type="text" data-ng-model="isoLevelText" class="form-control" style="width:150px;" required />
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+
+            <div class="row" style="font-size:large;padding-left:15px;"><label class="h4">Quality Parameters</label></div>
+            <br>
+            <div class="row">
+
+                <div class="col-md-1"></div>
+                <table class="col-lg-10">
+
+                    <tr data-ng-repeat="qp1 in QualityParameters">
+                        <td data-ng-repeat="qp in qp1">
+                            <span class="col-md-7" style="padding-bottom:40px;">({{qp.ParameterOrder}}) {{qp.QualityParameter}}</span>
+                            <span class="col-md-5" style="padding-bottom:40px;">
+                                <select class="form-control" data-ng-model="answerArray[qp.Id]" required>
+                                    <option data-ng-repeat="para in qParameters" value={{para}}>{{para}}</option>
+                                </select>
+                            </span>
+                        </td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+            <button type="submit" class="btn btn-secondary adminProjectField q1" data-ng-disabled="processComplianceSurveyForm.$invalid" data-ng-model="submitBut" id="subBut" data-ng-click="submitAndReturn()">Submit</button>
+            &nbsp;&nbsp;
+            <button type="submit" class="btn btn-secondary adminProjectField q1" data-ng-disabled="processComplianceSurveyForm.$invalid" data-ng-model="submitAnotherBut" id="subAnotherBut" data-ng-click="submitFormData()">Submit Another</button>
+        </form>
+
+    </div>
+</div>

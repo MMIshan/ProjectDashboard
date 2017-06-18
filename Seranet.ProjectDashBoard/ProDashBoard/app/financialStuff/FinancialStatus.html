@@ -1,0 +1,155 @@
+﻿<div data-ng-controller="financialStatusController" class="modal-content">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="col-md-4" style="padding-left:0">
+                <a href="#/"><img src="/projectDashboard/Content/Images/logo2.png" style="padding-top:15px;padding-right:20px;height:45px;"></a>
+                &nbsp;
+                <div class="dropdown">
+
+                    <button class="dropbtn" style="color:#6E6E6E;font-weight:normal;"><b>Forms</b></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="padding-top:10px;display:block;margin:0 auto;">
+                <select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" data-ng-selected="returnedAccountId == {{project[1]}} ? 'selected' : '' " value={{project[1]}}>{{project[0]}}</option>
+                </select>
+
+            </div>
+
+            <div class="col-md-4" style="padding-top:18px;display:block;">
+                <label style="float:right;color:#7F7F7F;font-weight:normal;font-family: 'Leelawadee UI';font-size:14px;">{{LoggedInUserName}}</label>
+
+            </div>
+
+        </div>
+    </div>
+    <br><br>
+    <toaster-container toaster-options="{'time-out': 3000,'position-class': 'toast-top-right'}"></toaster-container>
+    <div style="margin-left:1.5%;">
+        <section>
+        <div class="row teamChart well">
+            <div class="col-md-6">
+                <span id="labelName" style="font-size:25px;"><b>Billing Efficiency</b></span>
+            </div>
+
+            <canvas  id="LineChart" chart-options="options" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-click="pcChartClick" chart-Colours="colors" style="padding-top:15px;height:220px;width:1200px;"   chart-legend="true"></canvas>
+
+
+        </div>
+    </section>
+        <br>
+
+        <section>
+            <div class="row teamChart well" id="financialContent">
+                <div class="row" style="margin-top:10px;height:40px;">
+                    <div class="col-md-5">
+                        <span id="labelName" style="padding-left:25px;"><b>Financial Status Calculator</b></span>
+                    </div>
+                    <div class="col-md-6">
+                        <select data-ng-model="yearCombo" class="form-control field" style="display:inline;margin-right:5%;">
+                            <option data-ng-repeat="x in yearArray" value={{x}}>{{x}}</option>
+                        </select>
+                        <input type="button" value="Quarter 1" data-ng-model="q1" data-ng-class="quarter1" data-ng-click="q1Click()" style="width:100px;margin-left:5%;" class="btn btn-secondary" />
+                        <input type="button" value="Quarter 2" data-ng-model="q2" data-ng-class="quarter2" data-ng-click="q2Click()" style="width:100px;margin-left:5%;" class="btn btn-secondary" />
+                        
+                    </div>
+
+                </div>
+
+                <div class="row" style="margin-top:10px;height:50px;">
+                    
+                    <div class="col-md-12" style="padding-left:35px;display:inline-block" >
+                        
+                        <span id="nonBillable">Billable Hours</span>
+                        
+
+                        
+                        <span id="hourlyBillable">Hourly Billable Hours</span>
+                        
+                        
+                        <span id="billable">Non Billable Hours</span>
+                        
+                        
+                        
+                        
+                    </div>
+
+                </div>
+                <div>
+                    <table  data-ng-show="financialResults" class="table table-bordered" id="financialTable">
+
+                        <tr style="padding-left:28px;">
+                            <th style="padding-left:20px;">Employee</th>
+                            <th data-ng-repeat="returnedMonth in returnedMonthArray" style="padding-left:20px;">{{returnedMonth}}</th>
+                            <th style="padding-left:20px">Allocation</th>
+                            <th style="padding-left:20px">Billable</th>
+                            <th style="padding-left:20px">Extra/Lag</th>
+                            <th style="padding-left:20px">HourlyBillable</th>
+                            <th style="padding-left:20px">NonBillable</th>
+
+                        </tr>
+                        <tr data-ng-repeat="tblData in tableData">
+                            
+                            <td style="padding-left:20px;">{{tblData[0].EmpName}}</td>
+                            
+                            <td data-ng-repeat="colData in tblData" ng-class="{ '1': 'orange','2': 'green','3': 'gray'}[colData.BillableType]">
+                            <label data-ng-if="colData.BillableType==2">{{colData.BillableHours}}</label>
+                            <!--<label data-ng-if="colData.BillableType==2 && colData.BillableHours>colData.AllocatedHours" >{{colData.BillableHours}}</label>-->
+                            <label data-ng-if="colData.BillableType==1" >{{colData.BillableHours}}</label>
+                            <label data-ng-if="colData.BillableType==3" >{{colData.BillableHours}}</label>
+                            <label data-ng-if="colData.BillableHours==-1" style="color:gray">N/A</label>
+                            </td>
+                            <td style="padding-left:20px;" data-ng-init="allocated=allocationCal(tblData);">{{allocated | number:2}}</td>
+                            <td style="padding-left:20px;" data-ng-init="billable=billableCal(tblData);">{{billable | number:2}}</td>
+                            <td style="padding-left:20px;color:red" data-ng-init="extralag=extraorlagCal(tblData);" data-ng-if="extraorlagCalColour(tblData)<0">{{extralag | number:2}}</td>
+                            <td style="padding-left:20px;" data-ng-init="extralag=extraorlagCal(tblData);"  data-ng-if="extraorlagCalColour(tblData)>0 || extraorlagCalColour(tblData)==0">{{extralag | number:2}}</td>
+                            <td style="padding-left:20px;" data-ng-init="hourlyBillable=hourlyBillableCal(tblData);">{{hourlyBillable | number:2}}</td>
+                            <td style="padding-left:20px;" data-ng-init="nonBillable=nonBillableCal(tblData);">{{nonBillable | number:2}}</td>
+                            
+                         </tr>
+                        <tr data-ng-if="isAdmin || isTeamLead">
+                            <td style="padding-left:20px;"><b>T.Hours</b></td>
+                            <td data-ng-repeat="endrowitemindex in tempActualArray">
+                                <label>{{endrowitemindex | number: 2}}</label>
+                            </td>
+                            <td style="padding-left:20px;font-weight:800;" >
+                                {{totalAllocation | number: 2}}
+                            </td>
+                            <td style="padding-left:20px;font-weight:800;">
+                                {{totalBillable | number: 2}}
+                            </td>
+                            <td style="padding-left:20px;font-weight:800;color:red;" data-ng-if="totalextraorlagCal<0">
+                                {{totalextraorlagCal | number: 2}}
+                            </td>
+                            <td style="padding-left:20px;font-weight:800;" data-ng-if="totalextraorlagCal==0 || totalextraorlagCal>0">
+                                {{totalextraorlagCal | number: 2}}
+                            </td>
+                            <td style="padding-left:20px;font-weight:800;">
+                                {{totalhourlyBillableCal | number: 2}}
+                            </td>
+                            <td style="padding-left:20px;font-weight:800;">
+                                {{totalnonBillableCal | number: 2}}
+                            </td>
+                            
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+
+
+        </section>
+            </div>
+</div>
+
+

@@ -1,0 +1,104 @@
+﻿<div data-ng-controller="customerSatisfaction" class="modal-content">
+    <div class="navbar navbar-inverse navbar-fixed-top">
+        <div class="modal-content">
+            <div class="col-md-4" style="padding-left:0">
+                <a href="#/"><img src="/projectDashboard/Content/Images/logo2.png" style="padding-top:15px;padding-right:20px;height:45px;"></a>
+                &nbsp;
+                <div class="dropdown">
+
+                    <button class="dropbtn" style="color:#6E6E6E;font-weight:normal;"><b>Forms</b></button>
+
+                    <div class="dropdown-content">
+                        <a ui-sref="teamForm">Team Satisfaction Survey</a>
+                        <a data-ng-show="isAdmin==true" ui-sref="processComplianceForm">Process Compliance Form</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="adminPanel">Admin Panel</a>
+                        <a data-ng-if="isAdmin==true || isTeamLead==true" ui-sref="financialForm">TimeReport Form</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4" style="padding-top:10px;display:block;margin:0 auto;">
+                <select data-ng-change="proNameChange(key)" data-ng-model="key1" class="projectList">
+                    <option data-ng-repeat="project in userAccounts" data-ng-selected="accountId == {{project[1]}} ? 'selected' : '' " value={{project[1]}}>{{project[0]}}</option>
+                </select>
+
+            </div>
+
+            <div class="col-md-4" style="padding-top:18px;display:block;">
+                <label style="float:right;color:#7F7F7F;font-weight:normal;font-family: 'Leelawadee UI';font-size:14px;">{{LoggedInUserName}}</label>
+
+            </div>
+
+        </div>
+    </div>
+    <toaster-container toaster-options="{'time-out': 3000,'position-class': 'toast-top-right'}"></toaster-container>
+    <br><br>
+    <div style="margin-left:1.5%;">
+        <section>
+            <div class="row teamChart well">
+                <div class="col-md-6">
+                    <span id="labelName" style="font-size:25px;"><b>Customer Satisfaction</b></span>
+                    <br><br>
+                    <span id="labelName"><b>Customer Satisfaction Trends{{subProjectName}}</b></span>
+                    <br>
+                </div>
+                <div class="graph span6">
+                    <canvas id="bar123" chart-options="options" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-click="onClick" chart-Colours="colours" height="250" width="1200" style="padding-top:15px;" chart-legend="true" chart-responsive="false" data-ng-model="cusChart"></canvas>
+                </div>
+            </div>
+            <style>
+
+            </style>
+        </section>
+        <br>
+        <section>
+            <div class="row teamChart well">
+                <div class="row resultsHeaderContent">
+                    <div style="margin-top:10px;margin-left:15px;">
+                    <div class="col-md-6">
+                        <span id="labelName"><b>Customer Survey Result Calculator</b></span>
+                    </div>
+                    <div class="col-md-6">
+                        <select data-ng-model="yearCombo" class="form-control field">
+                            <option data-ng-repeat="x in yearArray" value={{x}}>{{x}}</option>
+                        </select>
+                        <input type="button" value="1st Half" data-ng-model="q1" data-ng-class="quarter1" data-ng-click="q1Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                        <input type="button" value="2nd Half" data-ng-model="q2" data-ng-class="quarter2" data-ng-click="q2Click()" style="width:80px;margin-left:15px;" class="btn btn-secondary" />
+                        <select data-ng-model="projectCombo"  class="form-control field" style="margin-left:45px;" data-ng-change="subProjectChange()">
+                            <option value="All">All Projects</option>
+                            <option data-ng-repeat="x in projects" data-ng-selected="initialSelectedProjectId == {{x.Id}} ? 'selected' : '' " value={{x}}>{{x.Name}}</option>
+                        </select>
+                    </div>
+                        </div>
+                </div>
+                <div>
+                    <table id="teamTable" data-ng-show="cusResults">
+
+                        <tr data-ng-repeat="result in CusResults" style="padding-left:28px;">
+                            <th data-ng-if="result.QuestionOrder==2" style="padding-left:15px;font-weight:900;width:102px;border-bottom: 1px solid #ccc;">Questions</th>
+                            <th data-ng-if="result.QuestionOrder==2" style="padding-left:15px;font-weight:900;border-bottom: 1px solid #ccc;">{{result.DashboardQuestion}}  {{result.Answer}}</th>
+                            <td data-ng-if="result.QuestionOrder==0" style="padding-left:34px;">
+                                {{result.DashboardQuestion}}
+                            </td>
+                            <td data-ng-if="result.QuestionOrder==0" style="padding-left:15px;">{{result.Answer}}</td>
+                            <td data-ng-if="result.QuestionOrder!=0 && result.QuestionOrder!=2" style="padding-left:15px;">
+                                ({{result.QuestionOrder}}) {{result.DashboardQuestion}} 
+                            </td>
+                            <td data-ng-if="result.QuestionOrder!=0 && result.QuestionOrder!=2" style="padding-left:15px;"><label data-ng-init="myFun=convertData(result.Answer)" ng-bind-html='result.Answer'></label></td>
+
+                        </tr>
+                        <tr style="padding-left:28px;">
+                            <td style="padding-left:15px;"><b>Average</b></td>
+                            <td style="padding-left:15px;"><b>{{projectSummary.Rating}}</b></td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+
+
+        </section>
+        </div>
+    </div>
